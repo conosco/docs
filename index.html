@@ -1,16 +1,340 @@
+<!doctype html>
 <html lang="en">
-  <head>
-    <title>Conosco</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <body>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href="assets/img/favicon.ico">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>Conosco - Documentação</title>
+
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- Bootstrap core CSS     -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/paper-kit.css?v=2.1.0" rel="stylesheet" />
+
+    <!--  CSS for Demo Purpose, don't include it in your project     -->
+    <link href="assets/css/demo.css" rel="stylesheet" />
+
+    <!--     Fonts and icons     -->
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,300,700' rel='stylesheet' type='text/css'>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/nucleo-icons.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md fixed-top navbar-transparent" color-on-scroll="500">
+        <div class="container">
+            <div class="navbar-translate">
+                <button class="navbar-toggler navbar-toggler-right navbar-burger" type="button" data-toggle="collapse"
+                    data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-bar"></span>
+                    <span class="navbar-toggler-bar"></span>
+                    <span class="navbar-toggler-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://conosco.github.io/docs/">Conosco</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav ml-auto">
+                    <div class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="dropdownMenuButton" href="#pk"
+                            role="button" aria-haspopup="true" aria-expanded="false"><i
+                                class="nc-icon nc-single-copy-04"></i>Documentação
+                        </a>
+                        <ul class="dropdown-menu dropdown-info" aria-labelledby="dropdownMenuButton">
+                            <li class="dropdown-header">Documentação do projeto</li>
+                            <a class="dropdown-item" href="abertura/index.html"> <i class="nc-icon nc-paper"></i>
+                                Abertura </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="especificacao/index.html"> <i class="nc-icon nc-paper"></i>
+                                Especificação</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="viabilidade/index.html"> <i class="nc-icon nc-paper"></i>
+                                Viabilidade técnica</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="usabilidade/index.html"> <i class="nc-icon nc-paper"></i>
+                                Usabilidade</a>
+                    </div>
+                    <li class="nav-item">
+                        <a href="sprints/index.html" target="_blank" class="nav-link"><i
+                                class="nc-icon nc-chart-bar-32"></i>Sprints</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" rel="tooltip" title="Star on GitHub" data-placement="bottom"
+                            href="https://github.com/conosco" target="_blank">
+                            <i class="fa fa-github"></i>
+                            <p class="d-lg-none">GitHub</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <div class="wrapper">
-      <h1>cachorro</h1>
+        <div class="page-header section-dark" style="background-image: url('assets/img/bg-preto.png')">
+            <div class="filter"></div>
+            <div class="content-center">
+                <div class="container">
+                    <div class="title-brand">
+                        <h1 class="presentation-title">Conosco</h1>
+                    </div>
+                    <h2 class="presentation-subtitle text-center">Cresça Conosco.</h2>
+                </div>
+            </div>
+            <div class="moving-clouds" style="background-image: url('assets/img/clouds.png'); "></div>
+        </div>
+        <div class="main">
+            <div class="section text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 ml-auto mr-auto">
+                            <h2 class="title">Sobre o produto</h2>
+                            <h5 class="description">Integrar uma comunidade com um objetivo em comum , para que juntos,
+                                possam se motivar e ajudar a construir e manter os hábitos.</h5>
+                            <br>
+                        </div>
+                    </div>
+                    <br /><br />
+                </div>
+
+            </div>
+        </div>
+        <div class="section section-dark text-center">
+            <div class="container">
+                <h2 class="title">A equipe</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card card-profile card-plain">
+                            <div class="card-avatar">
+                                <a href="#avatar"><img src="assets/img/faces/augusto.jpg" alt="..."></a>
+                            </div>
+                            <div class="card-body">
+                                <a href="#paper-kit">
+                                    <div class="author">
+                                        <h4 class="card-title">Augusto Vilarins</h4>
+                                        <h6 class="card-category">Scrum Master</h6>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-profile card-plain">
+                            <div class="card-avatar">
+                                <a href="#avatar"><img src="assets/img/faces/djorkaeff.png" alt="..."></a>
+                            </div>
+                            <div class="card-body">
+                                <a href="#paper-kit">
+                                    <div class="author">
+                                        <h4 class="card-title">Djorkaeff Alexandre</h4>
+                                        <h6 class="card-category">Desenvolvedor</h6>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i
+                                        class="fa fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-profile card-plain">
+                            <div class="card-avatar">
+                                <a href="#avatar"><img src="assets/img/faces/guilherme.jpg" alt="..."></a>
+                            </div>
+                            <div class="card-body">
+                                <a href="#paper-kit">
+                                    <div class="author">
+                                        <h4 class="card-title">Guilherme Siqueira</h4>
+                                        <h6 class="card-category">Desenvolvedor</h6>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-profile card-plain">
+                            <div class="card-avatar">
+                                <a href="#avatar"><img src="assets/img/faces/icaro.jpg" alt="..."></a>
+                            </div>
+                            <div class="card-body">
+                                <a href="#paper-kit">
+                                    <div class="author">
+                                        <h4 class="card-title">Ícaro</h4>
+                                        <h6 class="card-category">Desenvolvedor</h6>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-profile card-plain">
+                            <div class="card-avatar">
+                                <a href="#avatar"><img src="assets/img/faces/joao.jpg" alt="..."></a>
+                            </div>
+                            <div class="card-body">
+                                <a href="#paper-kit">
+                                    <div class="author">
+                                        <h4 class="card-title">João Pedro</h4>
+                                        <h6 class="card-category">Desenvolvedor</h6>
+                                    </div>
+                                </a>
+
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i
+                                        class="fa fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-profile card-plain">
+                            <div class="card-avatar">
+                                <a href="#avatar"><img src="assets/img/faces/vitor.jpg" alt="..."></a>
+                            </div>
+                            <div class="card-body">
+                                <a href="#paper-kit">
+                                    <div class="author">
+                                        <h4 class="card-title">Vitor Leal</h4>
+                                        <h6 class="card-category">Desenvolvedor</h6>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-profile card-plain">
+                            <div class="card-avatar">
+                                <a href="#avatar"><img src="assets/img/faces/ana.jpg" alt="..."></a>
+                            </div>
+                            <div class="card-body">
+                                <a href="#paper-kit">
+                                    <div class="author">
+                                        <h4 class="card-title">Ana Carolina</h4>
+                                        <h6 class="card-category">Desenvolvedor</h6>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-profile card-plain">
+                            <div class="card-avatar">
+                                <a href="#avatar"><img src="assets/img/faces/gustavo.jpg" alt="..."></a>
+                            </div>
+                            <div class="card-body">
+                                <a href="#paper-kit">
+                                    <div class="author">
+                                        <h4 class="card-title">Gustavo Braz</h4>
+                                        <h6 class="card-category">Desenvolvedora</h6>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-profile card-plain">
+                            <div class="card-avatar">
+                                <a href="#avatar"><img src="assets/img/faces/mateus.jpg" alt="..."></a>
+                            </div>
+                            <div class="card-body">
+                                <a href="#paper-kit">
+                                    <div class="author">
+                                        <h4 class="card-title">Mateus Sousa</h4>
+                                        <h6 class="card-category">Desenvolvedor</h6>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-profile card-plain">
+                            <div class="card-avatar">
+                                <a href="#avatar"><img src="assets/img/faces/rodrigo.jpg" alt="..."></a>
+                            </div>
+                            <div class="card-body">
+                                <a href="#paper-kit">
+                                    <div class="author">
+                                        <h4 class="card-title">Rodrigo Dadamos</h4>
+                                        <h6 class="card-category">Desenvolvedor</h6>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </body>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <nav class="footer-nav">
+                    <ul>
+                        <li><a href="http://www.creative-tim.com">Creative Tim</a></li>
+                        <li><a href="http://blog.creative-tim.com">Blog</a></li>
+                        <li><a href="http://www.creative-tim.com/license">Licenses</a></li>
+                    </ul>
+                </nav>
+                <div class="credits ml-auto">
+                    <span class="copyright">
+                        ©
+                        <script>
+                            document.write(new Date().getFullYear())
+                        </script>, made with <i class="fa fa-heart heart"></i> by Creative Tim
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<!-- Core JS Files -->
+<script src="assets/js/jquery-3.2.1.js" type="text/javascript"></script>
+<script src="assets/js/jquery-ui-1.12.1.custom.min.js" type="text/javascript"></script>
+<script src="assets/js/popper.js" type="text/javascript"></script>
+<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+
+<!-- Switches -->
+<script src="assets/js/bootstrap-switch.min.js"></script>
+
+<!--  Plugins for Slider -->
+<script src="assets/js/nouislider.js"></script>
+
+<!--  Plugins for DateTimePicker -->
+<script src="assets/js/moment.min.js"></script>
+<script src="assets/js/bootstrap-datetimepicker.min.js"></script>
+
+<!--  Paper Kit Initialization and functons -->
+<script src="assets/js/paper-kit.js?v=2.1.0"></script>
+
 </html>
