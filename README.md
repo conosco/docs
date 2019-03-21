@@ -1,11 +1,11 @@
-# [docs] conosco
-
+<br>
 <div align="center">
 	<img width="550" height="100" src="media/logo.png" alt="logo">
 	<br>
 	<br>
 </div>
-<br>
+
+# [docs] conosco
 
 ## leia nossos docs
 
