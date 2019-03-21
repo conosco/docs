@@ -11,7 +11,7 @@
 
 este repositório é destinado ao upload de toda a documentação do projeto. 
 
-leia [aqui](https://conosco.github.io).
+leia [aqui](https://conosco.github.io/docs).
 
 ## organização
 
