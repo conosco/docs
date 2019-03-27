@@ -1,7 +1,7 @@
 # Documento de Visão
 | **Data** | **Versão** | **Descrição** | **Autor(es)** |
 |---|---|---|---|
-|25 | 0.1 | Iniciação do Documento | Gustavo Braz |
+|25/03/2019 | 0.1 | Iniciação do Documento | Gustavo Braz |
 
 
 ## Sumário
