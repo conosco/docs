@@ -2,7 +2,7 @@
 | **Data** | **Versão** | **Descrição** | **Autor(es)** |
 |---|---|---|---|
 |25/03/2019 | 0.1 | Iniciação do Documento | Gustavo Braz |
-
+|31/03/2019 | 0.2 | Criação dos tópicos 3 e 4 | Djorkaeff Alexandre |
 
 ## Sumário
 [1. Introdução](#_1introdução)  
@@ -53,3 +53,74 @@
 O documento é dividido da seguinte maneira: inicialmente, foi explorado uma visão geral de todo o documento, exposição do problema que este projeto busca resolver e a descrição da parte interessada. Logo após, foram expostos os recursos necessários, restrições e a descrição do desempenho do produto. Por fim, foram denominados os requisitos necessários para a realização do projeto. 
   
 # 2. Posicionamento
+
+## 2.1 Oportunidade de Negócio:
+
+<p align="justify">Vender publicidade direcionada para pessoas que querem manter e disseminar bons hábitos.</p>
+
+## 2.2 Descrição do Problema:
+
+|Tipo| Descrição |
+| :------:| :-----------: |
+|*O Problema é* | a vontade de manter bons hábitos |
+| *Afeta* | pessoas que querem ter uma vida plena |
+| *Impacto é* | saúde e qualidade de vida abalados por falta de motivação para manter bons hábitos |
+| *Solução* | Conosco irá unir pessoas afim de transformá-las em ser humanos melhores |
+
+## 2.3 Instrução de Posição do Produto:
+
+<p align="justify">O Conosco é uma plataforma digital mobile para os millenials que irá transformar a vida das pessoas para melhor.</p>
+
+# 3: Descrição de Usuário
+
+## 3.1 Usuário:
+
+|Nome | Descrição |
+|:-----:|:----------:|
+| *Pessoas* | Procuram manter bons hábitos |
+
+## 3.2 Principais Necessidades do Usuário:
+
+## 3.3 Ambiente de Usuário:
+
+<p align="justify">Conosco será uma aplicação Mobile disponível para Android & iOS.</p>
+
+## 3.4 Partes Envolvidas:
+
+| Nome | Descrição | Responsabilidades | Envolvimento |
+| :-------: | :------: | :----------: | :-----------: |
+|Ícaro Oliveira | Desenvolvedor| Desenvolver a aplicação e manter a documentação atualizada| Alto|
+|Augusto Vilarins| Desenvolvedor| Desenvolver a aplicação e manter a documentação atualizada| Alto|
+|Guilherme Siqueira | Desenvolvedor| Desenvolver a aplicação e manter a documentação atualizada| Alto|
+|Djorkaeff Alexandre Vilela Pereira | Desenvolvedor| Desenvolver a aplicação e manter a documentação atualizada| Alto|
+
+## 3.5 Alternativas e Concorrência:
+
+## 4: Visão Geral do Produto
+
+## 4.1 Propósito do Produto:
+
+<p align="justify">Conosco tem como objetivo tornar as pessoas melhores em bons hábitos diários.</p>
+
+## 4.2 Recursos do Produto:
+
+Através do *aplicativo*, o usuário poderá:
+- Visualizar uma lista de hábitos.
+- Participar de um grupo de algum hábito.
+- Dar dicas e experiência sobre como manter esse hábito.
+- Curtir dicas de um hábito.
+- Obter pontos e *badgets* exclusivas.
+- Ter acesso ao perfil de outros usuários.
+
+## 5: Restrições
+
+- A aplicação deverá ser entregue funcionalmente até Julho de 2019.
+- Precisa ser compatível com dispositivos Android & iOS.
+- Será desenvolvida utilizando as linguagens Javascript & Typescript.
+- É necessário estar conectado a internet para ter acesso a aplicação.
+
+## 6: Referências
+
+- IBM Knowledge Center - Documento de Visão: A estrutura de tópicos do documento de visão. Disponível em: https://www.ibm.com/support/knowledgecenter/pt-br/SSWMEQ_3.0.1/com.ibm.rational.rrm.help.doc/topics/r_vision_doc.htm. Acesso em: 28 mar. 2019;
+- Projeto Receituário Médico - Documento de visão, Acessado em: 28/03/2019. Disponível em: https://github.com/fga-eps-mds/2017.2-Receita-Mais/wiki/Documento-de-Vis%C3%A3o
+- Projeto EmbelezaMais - Documento de visão, Acessado em: 28/03/2019. Disponível em: https://github.com/Software-Design-2017/EmbelezaMais/wiki/Documento-de-Vis%C3%A3o-Framework
