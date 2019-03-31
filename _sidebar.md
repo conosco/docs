@@ -3,6 +3,7 @@
   - [Elicitação](#)
   - [Modelagem](#)
   - [Análise](#)
-- [Abertura e Especificação](#) 
+- [Abertura e Especificação](#)
   - [EAP](/docs/eap.md)
   - [Documento de Visão](/docs/documento-visao.md)
+  - [Plano de gamificação](/docs/plano-gamificacao.md)
