@@ -28,7 +28,7 @@ A gamificação é, basicamente, usar ideias e mecanismos de jogos para incentiv
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para uma melhor elaboração de um plano de gamificação,muitas variáveis deve ser levadas em consideração. Por ser focada nas pesoas e na sua produtividade e bem estar, a gamificação deve ser planejada de forma que satisfaça o perfil do usuário para evitar falta de sinergia entre a gamificação aplicada e o alvo. Por exemplo, em um contexto em que a maioria dos membros são competitivos, não seria proveitoso a implementação de uma gamificação colaborativa, visto que para melhores resultados o processo tem de ser sinérgico.
 
-Para definir o perfil do foi aplicado um questionário de perfil comportamental, e os resultados foram analisados pela equipe do CONOSCO ultlizando as diretizes da Octalyzis, também foi aplicada uma dinâmica de reconhecimento de persona, os dados foram compilados e estão disponíveis no nosso GithubIO.
+Para definir o perfil do foi aplicado um questionário de perfil comportamental, e os resultados foram analisados pela equipe do CONOSCO ultlizando as diretizes da [Gamified UK](https://www.gamified.uk/), também foi aplicada uma dinâmica de reconhecimento de persona, os dados foram compilados e estão disponíveis no nosso GithubIO.
 
 Dentro da gamificação, existem alguns perfis de usuário, sendo eles:
 
