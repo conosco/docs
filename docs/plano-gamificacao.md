@@ -72,19 +72,17 @@ interagir com outros usuários. São motivados por conexão interpessoal.
 
 **Achievers**
 
-- Certificado
-- Nível/Progressão
+- Nível/Progressão x
 - Sinalização
 - Progresso/ feedback
 - Pressão do tempo
 - Aversão à perda
 - Programa de recompensas fixo
-- Emblemas e Conquistas
-- Placar/Ranking
-- Curiosidade/caixa misteriosa
+- Emblemas e Conquistas x
+- Placar/Ranking x
 - Tutorial
 
-**Free Spiris** 
+**Free Spirits** 
 
 - Easter Eggs
 - Desbloquear Itens 
@@ -92,25 +90,53 @@ interagir com outros usuários. São motivados por conexão interpessoal.
 
 **Philantropists** 
 
-- Certificado
 - Recompensas aleatórias
 
 **Players**
 
-- Certificado
-- Nível/Progressão
+- Nível/Progressão x
 - Sinalização
 - Easter Eggs
-- Progresso/ feedback
+- Progresso/feedback x
 - Pressão do tempo
 - Aversão à Perda
 - Programa de recompensas fixo
-- Emblemas e Conquistas
-- Placar/ Ranking
-- Curiosidade/caixa misteriosa
-- Tutorial
-- Desbloquear Itens 
+- Emblemas e Conquistas x
+- Placar/ Ranking x
+- Tutorial x
 - Recompensas aleatórias
+
+## 5.1 Técnicas de Gamificação
+
+- Iniciar hábito:
+
+- Acompanhamento de Hábitos:
+
+- Criar fórum:
+
+- Contribuir no fórum
+    - Responder pergunta:
+    - Fazer pergunta:
+    - Avaliar contribuição:
+
+- Tutorial: No primeiro contato do usuário com o app, ele será guiado pelo "Saruê Jurandir" para entender quais são suas tarefas, atividades e áreas do app. 
+    - Fase 1: Iniciando seu primeiro hábito
+    - Fase 2: Criando seu primeiro fórum
+
+- Nível/Progressão: O usuário irá conseguir XP a medida que cumprir suas atividades no app e irá subir de nível conforme o acúmulo de XP.
+    - Nome do Nível (faixa de nível de 0 - 9)
+    - Nome do Nível (faixa de nível de 10 - 19)
+    - Nome do Nível (faixa de nível de 20 - 29)
+    - Nome do Nível (faixa de nível de 30 - 39)
+
+- Emblemas e Conquistas: Estas serão adiquiridas conforme o usuário execute certas tarefas
+    - Tarefa 1
+    - Tarefa 2
+    - Tarefa 3
+    - Tarefa 4
+
+- Progresso/feedback: Haverá para o usuário um quadro de acompanhamento de execução dos hábitos.
+
 
 ## 6. Jornada 
 
