@@ -22,7 +22,7 @@ A gamificação é, basicamente, usar ideias e mecanismos de jogos para incentiv
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Exemplos iniciais de ludificação são baseados em pontos de recompensa para as pessoas que atendem metas diversas e/ou compartilham experiências.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ao identificar como um risco a capacidade de manter e fidelizar os usuários do aplicatovp, surgiu a idéia da Gemificação, como uma opção que vem provando ser uma opção viavel para lidar com esse tipo de risco
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ao identificar como um risco a capacidade de manter e fidelizar os usuários do aplicativo, surgiu a idéia da Gamificação, como uma opção que vem provando ser uma opção viavel para lidar com esse tipo de risco
 
 ## 3. Perfil de usuário
 
@@ -35,7 +35,7 @@ Dentro da gamificação, existem alguns perfis de usuário, sendo eles:
 Achievers: São aqueles que querem ser os melhores players ou, pelo menos, estar dominando o
 sistema. Eles querem aprender tudo que for disponibilizado no sistema, buscando aumentar o seu
 conhecimento. Eles fazem isso por egoísmo e provavelmente não se incomodarão de ostentarem seus
-conhecimentos aos outros usuários. Eles são motivados pela maestria. <br> <br>
+conhecimentos aos outros usuários. Eles são motivados pela maestria. <br><br>
 • Disruptors: Os disruptores tentam tumultuar o sistema de alguma maneira. Eles podem corromper os usuários ou o próprio sistema da jornada. Eles podem afetar negativamente os usuários só
 porque podem, hackear ou caçar falhas no sistema, influenciar outros usuários para mudar como
 funciona o sistema ou, até mesmo, encontrar erros para serem consertados. Eles são motivados pela
@@ -63,7 +63,7 @@ interagir com outros usuários. São motivados por conexão interpessoal.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mas por quê o tema escotismo? Por quê o tema, remete a idéia de ajudar uma comunidade e pessoas , baseando-se nas habilidades individuais de cada elemento, sem esperar receber nada em troca além da melhoria da próŕia comunidade.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Isso, facilita também a ambientação do sistema de recompensas, pois a hierarquia do escotismo é bem consolidada , e mesmo que você seja de uma hierarquia "superior" isso não significa que você tem autoridade sobre as menosres hierarquias, mas sim que terá uma responsabilidade maior.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Isso, facilita também a ambientação do sistema de recompensas, pois a hierarquia do escotismo é bem consolidada , e mesmo que você seja de uma hierarquia "superior" isso não significa que você tem autoridade sobre as menores hierarquias, mas sim que terá uma responsabilidade maior.
 
 
 ## 5. Sistema de recompensas
@@ -71,3 +71,13 @@ interagir com outros usuários. São motivados por conexão interpessoal.
 | **Achievers** | **Free Spiris** | **Philantropists** | **Players** |
 |---|---|---|---|
 |Certificado, Nivel de progressão, Progresso, Pressão do tempo,Aversão a perda, Programa de recompensas fixo, Emblembas, Placar, Curiosidade, Tutorial, Desafios, Missões, Batalhas de chefes | Easter Eggs, Desbloquear itens, Recompensas aleatorias, Exploração, Customização, Desenvolvimento| Certificado, Recompensas aleatórias, Significado e finalidade, Cuidado, Status social, Compartilhar conhecimento, Votação | Narrativa histórica, Nível de Progressão , Programa de recompensas, Pontos/EXP, Equipes, Recompensas dependentes do tempo, Caixa misteriosa |
+
+## 6. Jornada 
+
+Descoberta: Essa fase é compreendida como o momento em que os players tomam conhecimento
+acerca da gamificação desenvolvida. É importante que nesse estágio o player sinta-se tentado a
+abraçar a ideia e, naturalmente, se voluntarie a participar da jornada. Assim que o jogador opta
+por ingressar na gamificação, a fase de descoberta se encerra. <br><br>
+• Entrada: Nessa fase o player irá começar a fazer parte da gamificação de fato. <br><br>
+• Dia-a-Dia: É onde o player participará das principais atividades da gamificação. <br><br>
+• Saída: Aqui o player receberá os resultados de suas atividades na fase do dia-a-dia e será redirecionado novamente para a fase de entrada.
