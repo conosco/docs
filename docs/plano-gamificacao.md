@@ -28,7 +28,31 @@ A gamificação é, basicamente, usar ideias e mecanismos de jogos para incentiv
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para uma melhor elaboração de um plano de gamificação,muitas variáveis deve ser levadas em consideração. Por ser focada nas pesoas e na sua produtividade e bem estar, a gamificação deve ser planejada de forma que satisfaça o perfil do usuário para evitar falta de sinergia entre a gamificação aplicada e o alvo. Por exemplo, em um contexto em que a maioria dos membros são competitivos, não seria proveitoso a implementação de uma gamificação colaborativa, visto que para melhores resultados o processo tem de ser sinérgico.
 
-Para definir o perfil do foi aplicado um questionário de perfil comportamental, e os resultados foram analisados pela equipe do CONOSCO ultlizando as diretizes da Octalyzis, também foi aplicada uma dinâmica de reconhecimento de persona, os dados foram compilados e estão disponíveis no nosso GithubIO
+Para definir o perfil do foi aplicado um questionário de perfil comportamental, e os resultados foram analisados pela equipe do CONOSCO ultlizando as diretizes da Octalyzis, também foi aplicada uma dinâmica de reconhecimento de persona, os dados foram compilados e estão disponíveis no nosso GithubIO.
+
+Dentro da gamificação, existem alguns perfis de usuário, sendo eles:
+
+Achievers: São aqueles que querem ser os melhores players ou, pelo menos, estar dominando o
+sistema. Eles querem aprender tudo que for disponibilizado no sistema, buscando aumentar o seu
+conhecimento. Eles fazem isso por egoísmo e provavelmente não se incomodarão de ostentarem seus
+conhecimentos aos outros usuários. Eles são motivados pela maestria. <br> <br>
+• Disruptors: Os disruptores tentam tumultuar o sistema de alguma maneira. Eles podem corromper os usuários ou o próprio sistema da jornada. Eles podem afetar negativamente os usuários só
+porque podem, hackear ou caçar falhas no sistema, influenciar outros usuários para mudar como
+funciona o sistema ou, até mesmo, encontrar erros para serem consertados. Eles são motivados pela
+mudança. <br><br>
+• Free Spirit: Os usuários do tipo free spirit têm, basicamente, duas vertentes: aqueles que gostam
+de explorar o mundo da gamificação livremente, fazendo a sua jornada pessoal e aqueles que gostam
+de construir coisas novas. Eles são motivados pela autonomia e expressão pessoal. <br><br>
+• Philanthropist: Eles gostam de sentir que são parte de algo maior. Eles gostam de melhorar a
+experiência dos outros, não esperando nada em troca. Eles, por exemplo, seriam jogadores que
+responderiam forums apenas para sentirem que estão ajudando. São motivados por propósito e
+significado. <br><br>
+• Player: O tipo player é importante para a introdução do usuário na gamificação através de pontos,
+prêmios, etc, sendo motivados extrinsecamente. A ideia é transformar esses players em outros
+players que são motivados intrinsecamente, como socialiser, free spirit, achiever ou philanthropist.
+Eles são motivados por prêmios. <br><br>
+• Socializer: São aqueles que buscam, no universo, o desenvolvimento das relações humanas e
+interagir com outros usuários. São motivados por conexão interpessoal.
 
 ![Perfil de usuários](https://i.imgur.com/wlYoF86.png)
 
