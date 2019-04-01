@@ -3,17 +3,16 @@
 |---|---|---|---|
 |25/03/2019 | 0.1 | Iniciação do Documento | Gustavo Braz |
 |31/03/2019 | 0.2 | Criação dos tópicos 3 e 4 | Djorkaeff Alexandre |
+|31/03/2019 | 0.3 | Criação dos tópicos 3.7 e ajustes no sumário | Gustavo Braz
 
 ## Sumário
 [1. Introdução](#_1introdução)  
 &nbsp;&nbsp;[1.1. Propósito](#_11-propósito)  
-&nbsp;&nbsp;[1.2. Escopo](#12-escopo)  
-&nbsp;&nbsp;[1.3. Definições, acrônimos e abreviações](#13-definições-acrônimos-e-abreviações)  
-&nbsp;&nbsp;[1.4. Referências](#14-referências)  
-&nbsp;&nbsp;[1.5. Visão Geral](#15-visão-geral)  
+&nbsp;&nbsp;[1.2. Escopo](#12-escopo)   
+&nbsp;&nbsp;[1.3. Visão Geral](#15-visão-geral)  
 [2. Posicionamento](#2-posicionamento)  
 &nbsp;&nbsp;[2.1. Oportunidade de Negócios](#21-oportunidade-de-negócios)  
-&nbsp;&nbsp;[2.2. Instrução do problema](#22-instrução-do-problema)  
+&nbsp;&nbsp;[2.2. Descrição do problema](#22-descrição-do-problema)  
 &nbsp;&nbsp;[2.3. Instrução de Posição do Produto](#23-instrução-de-posição-do-produto)  
 [3. Descrições da parte interessada e do usuário](#3-descrições-da-parte-interessada-e-do-usuário)  
 &nbsp;&nbsp;[3.1. Resumo da Parte Interessada](#31-resumo-da-parte-interessada)  
@@ -23,12 +22,12 @@
 &nbsp;&nbsp;[3.5. Perfis dos usuários](#35-perfis-dos-usuários)  
 &nbsp;&nbsp;[3.7. Alternativas e Concorrência](#37-alternativas-e-concorrência)  
 [4. Visão geral do produto](#4-visão-geral-do-produto)  
-&nbsp;&nbsp;[4.1. Perspectiva do Produto](#41-perspectiva-do-produto)  
-&nbsp;&nbsp;[4.2. Resumo das Capacidades](#42-resumo-das-capacidades)  
+&nbsp;&nbsp;[4.1. Propósito do Produto](#41-perspectiva-do-produto)  
+&nbsp;&nbsp;[4.2. Recursos do Produto](#42-resumo-das-capacidades)  
 &nbsp;&nbsp;[4.3. Suposições e Dependências](#43-suposições-e-dependências)  
 &nbsp;&nbsp;[4.4. Licenciamento e Instalação](#44-licenciamento-e-instalação)  
-[5. Recursos do produto](#5-recursos-do-produto)  
-[6. Restrições](#6-restrições)  
+[5. Restrições](#5-restricoes)  
+[6. Referências](#6-referencias)  
 [7. Faixas de qualidade](#7-faixas-de-qualidade)  
 [8. Procedência e Prioridade](#8-procedência-e-prioridade)  
 [9. Outros requisitos do produto](#9-outros-requisitos-do-produto)  
@@ -43,12 +42,8 @@
   
 ## 1.2 Escopo
 <p align = "justify">O projeto tem como finalidade agrupar pessoas com interesses em comum e motivá-las a melhorar e criar novos hábitos através de gamificação. O usuário terá liberdade de criar objetivos e tarefas de acordo com sua realidade e ganhar recompensas. Criar um ambiente agradável, onde as pessoas sintam-se confortáveis para compartilhar experiências e conhecimento. O aplicativo deve ser gratuito e intuitivo.
-  
-## 1.3 Definições, acrônimos e abreviações
 
-## 1.4 Referências
-
-## 1.5 Visão geral
+## 1.3 Visão geral
 <p align = "justify">Este documento visa descrever os detalhes sobre as características do software a ser implementado e suas técnicas para a execução do mesmo.
 O documento é dividido da seguinte maneira: inicialmente, foi explorado uma visão geral de todo o documento, exposição do problema que este projeto busca resolver e a descrição da parte interessada. Logo após, foram expostos os recursos necessários, restrições e a descrição do desempenho do produto. Por fim, foram denominados os requisitos necessários para a realização do projeto. 
   
@@ -93,8 +88,11 @@ O documento é dividido da seguinte maneira: inicialmente, foi explorado uma vis
 |Augusto Vilarins| Desenvolvedor| Desenvolver a aplicação e manter a documentação atualizada| Alto|
 |Guilherme Siqueira | Desenvolvedor| Desenvolver a aplicação e manter a documentação atualizada| Alto|
 |Djorkaeff Alexandre Vilela Pereira | Desenvolvedor| Desenvolver a aplicação e manter a documentação atualizada| Alto|
+|Gustavo Vieira Braz | Desenvolvedor | Desenvolver a aplicação e manter a documentação atualizada| Alto|
 
 ## 3.5 Alternativas e Concorrência:
+
+<p align="justify">O principal concorrente presente no mercado é o aplicativo Habitica. No qual é um aplicativo de gerenciamento de tarefas on-line executado pela HabitRPG, Inc. Ao contrário da nossa solução, eles são focados em um modelo de "TODO list" em um ambiente de RPG.</p>
 
 ## 4: Visão Geral do Produto
 
