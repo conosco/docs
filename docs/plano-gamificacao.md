@@ -73,69 +73,64 @@ interagir com outros usuários. São motivados por conexão interpessoal.
 **Achievers**
 
 - Nível/Progressão x
-- Sinalização
-- Progresso/ feedback
-- Pressão do tempo
-- Aversão à perda
-- Programa de recompensas fixo
+- Progresso/ feedback x
 - Emblemas e Conquistas x
 - Placar/Ranking x
-- Tutorial
+- Tutorial x
 
 **Free Spirits** 
 
 - Easter Eggs
-- Desbloquear Itens 
-- Recompensas aleatórias
 
 **Philantropists** 
 
-- Recompensas aleatórias
+- Compartilhar Conhecimento x
+- Votação x
 
 **Players**
 
 - Nível/Progressão x
-- Sinalização
-- Easter Eggs
 - Progresso/feedback x
-- Pressão do tempo
-- Aversão à Perda
-- Programa de recompensas fixo
 - Emblemas e Conquistas x
 - Placar/ Ranking x
 - Tutorial x
-- Recompensas aleatórias
 
-## 5.1 Técnicas de Gamificação
+- Easter Eggs
 
-- Iniciar hábito:
 
-- Acompanhamento de Hábitos:
+## 5.2 Ações do jogador
 
-- Criar fórum:
+- Card de hábito: Um card de acompanhamento do hábito que o jogador quer adquirir.
+    - O jogador pode criar, detalhar, editar e excluir um card de hábito.
+    - Ações dentro do card de hábitos:
+        - Fazer um controle do hábito através de um checklist(Progresso/feedback)
+        - Anotar coisas referentes ao hábito
 
-- Contribuir no fórum
-    - Responder pergunta:
-    - Fazer pergunta:
-    - Avaliar contribuição:
+- Forúm: Um fórum referente a algum hábito.
+    - O jogador pode criar, detalhar, editar e excluir um forúm.
+    - Ações dentro do forúm:
+        - Criar uma postagem (Compartilhar Conhecimento)
+        - Contribuir em alguma postagem (Compartilhar Conhecimento)
+        - Avaliar relevância da postagem (Votação)
+        - Avaliar relevência da contribuição (Votação)
 
 - Tutorial: No primeiro contato do usuário com o app, ele será guiado pelo "Saruê Jurandir" para entender quais são suas tarefas, atividades e áreas do app. 
-    - Fase 1: Iniciando seu primeiro hábito
+    - Fase 1: Criando seu primeiro card de hábito 
     - Fase 2: Criando seu primeiro fórum
+    - Fase 3: Criando sua primeira postagem 
 
-- Nível/Progressão: O usuário irá conseguir XP a medida que cumprir suas atividades no app e irá subir de nível conforme o acúmulo de XP.
-    - Nome do Nível (faixa de nível de 0 - 9)
-    - Nome do Nível (faixa de nível de 10 - 19)
-    - Nome do Nível (faixa de nível de 20 - 29)
-    - Nome do Nível (faixa de nível de 30 - 39)
+- Nível/Progressão: O usuário irá conseguir influência(XP) a medida que cumprir suas atividades no app e irá subir de nível conforme o acúmulo de influência.
+    - Nível Mico Fofinho (faixa de nível de 0 - 9)
+    - Nível Capivara Valente (faixa de nível de 10 - 19)
+    - Nível Jaguatirica Truvada (faixa de nível de 20 - 29)
+    - Nível Onça Guerrilheira (faixa de nível de 30 - 39)
 
-- Emblemas e Conquistas: Estas serão adiquiridas conforme o usuário execute certas tarefas
+- Emblemas e Conquistas: Estas serão adiquiridas conforme o usuário executa certas tarefas
     - Tarefa 1
     - Tarefa 2
     - Tarefa 3
     - Tarefa 4
 
-- Progresso/feedback: Haverá para o usuário um quadro de acompanhamento de execução dos hábitos.
 
 
 ## 6. Jornada 
