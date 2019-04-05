@@ -2,7 +2,9 @@
 
 | **Data** | **Versão** | **Descrição** | **Autor(es)** |
 |---|---|---|---|
-|25/03/2019 | 0.1 | Iniciação do Documento | Augusto Vilarins |
+|25/03/2019 | 0.1 | Descrição do contexto, definição do tema e descrição do perfil do usuário | Augusto Vilarins |
+|31/03/2019 | 0.2 | Definição de técnicas e ações dos jogadores| Mateus Augusto, Viter Leal e João Pedro |
+|04/03/2019 | 0.3 | Continuação da definição das ações dos jogadores | Mateus Augusto |
 
 ## 1. O que é gamificação
 
@@ -80,7 +82,7 @@ interagir com outros usuários. São motivados por conexão interpessoal.
 
 **Free Spirits** 
 
-- Easter Eggs
+- Easter Eggs x
 
 **Philantropists** 
 
@@ -95,7 +97,7 @@ interagir com outros usuários. São motivados por conexão interpessoal.
 - Placar/ Ranking x
 - Tutorial x
 
-- Easter Eggs
+- Easter Eggs x
 
 
 ## 5.2 Ações do jogador
@@ -126,11 +128,18 @@ interagir com outros usuários. São motivados por conexão interpessoal.
     - Nível Onça Guerrilheira (faixa de nível de 30 - 39)
 
 - Emblemas e Conquistas: Estas serão adiquiridas conforme o usuário executa certas tarefas
-    - Tarefa 1
-    - Tarefa 2
-    - Tarefa 3
-    - Tarefa 4
-
+    - Medalha por completar o Tutorial (Easter Eggs)
+    - Medalha por nível: estas medalhas são conquistadas conforme o jogador passa para um próximo nível
+        - Medalha Nível Mico Fofinho
+        - Medalha Nível Capivara Valente 
+        - Medalha Nível Jaguatirica Truvada 
+        - Medalha Nível Onça Guerrilheira 
+    - Medalha por criar postagens (Easter Eggs)
+        - Quantidade de postagens (10 - 50 - 100 - 200 - 500 - 1000)
+    - Medalha por contribuir em postagens (Easter Eggs)
+        - Quantidade de contribuições (10 - 50 - 100 - 200 - 500 - 1000)
+    - Medalha por avaliar relevância (Easter Eggs)
+        - Quantidade de avaliações (10 - 50 - 100 - 200 - 500 - 1000)
 
 
 ## 6. Jornada 
