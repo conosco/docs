@@ -26,7 +26,7 @@ Os requisitos não-funcionais podem ser classificados em três tipos, sendo eles
 - Requisitos Externos
    - estão ligados a fatores externos ao sistema e ao processo de desenvolvimento como a legislação;
 
-# 2. Requisitos do produto
+# 2. Requisitos do produto final
 
 ### 2.1 Requisitos de facilidade de uso:
 | **Requisito** | **Descrição**|
@@ -48,3 +48,31 @@ Os requisitos não-funcionais podem ser classificados em três tipos, sendo eles
 |---|---|
 |RNF 08|O aplicativo deverá ter uma versão para Android. (Android 4.1 ou superior)|
 |RNF 09| O aplicativo deverá ter uma versão IOS. (iOS 8.0 ou superior)|
+
+## 3. Requisitos Organizacionais
+
+### 3.1 Requisitos de padronização
+| **Requisito** | **Descrição**|
+|---|---|
+|RNF 10|O código deverá seguir uma folha de estilo a ser definida|
+|RNF 11| O código deverá ser em inglês |
+
+### 3.2 Requisitos de implementação
+| **Requisito** | **Descrição**|
+|---|---|
+|RNF 12|O software deverá ser desenvolvido utilizando-se da linguagem JavaScript com o framework React-Native como interface|
+|RNF 13| Deverá ser utilizada uma API RESTful, com base nas linguagens NestJS e TypeScript|
+|RNF 14| O sistema deverá portar 90% de cobertura de testes|
+
+### 3.3 Requisitos de entrega
+| **Requisito** | **Descrição**|
+|---|---|
+|RNF 15|Na priorização das features, são consideradas a qualidade técnica da equipe juntamente com a importância dos requisitos|
+|RNF 16| Seguindo a metodologia ágil, o desenvolvimento do aplicativo será realizado por sprints com entregas semanais, e deverá estar disponivel para o usuário até o final do primeiro semestre de 2019|
+
+## 4.Requisitos Externos
+
+### 4.1 Requisitos éticos
+| **Requisito** | **Descrição**|
+|---|---|
+|RNF 17|O sistema não apresentará aos usuários quaisquer dados de cunho privativo |
