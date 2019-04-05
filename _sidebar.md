@@ -7,3 +7,5 @@
   - [EAP](/docs/eap.md)
   - [Documento de Visão](/docs/documento-visao.md)
   - [Plano de gamificação](/docs/plano-gamificacao.md)
+- [Documento de Arquitetura](/docs/arquitetura.md)
+    - [Modelo C4](/docs/modelo-c4.md)
