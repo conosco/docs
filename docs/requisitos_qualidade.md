@@ -34,3 +34,17 @@ Os requisitos não-funcionais podem ser classificados em três tipos, sendo eles
 |RNF 01|O aplicativo deverá ser disponibilizado em língua portuguesa (Brasil)|
 |RNF 02|O aplicativo deverá possuir design responsivo adequando-se ao aparelho em que é utilizado de forma correta|
 |RNF 03|A interação do usuário com o aplicativo deverá ser intuitiva|
+|RNF 04| Não deverá existir a necessidade de treinamento preparatório para o uso do aplicativo|
+|RNF 05| O aplicativo deverá possuir prevenção e notificação de erros, caso o preenchimento de dados for incorreto |
+
+### 2.2  Requisitos de confiabilidade:
+| **Requisito** | **Descrição**|
+|---|---|
+|RNF 06|O aplicativo deve estar em constante análise, a fim de que as informações do usuário não sejam acessadas do banco de dados responsáveis por informações sensíveis |
+|RNF 07| Não deverá ocorrer erros nas informações contidas na base de dados que serão exibidos |
+
+### 2.3 Requisitos de portabilidade:
+| **Requisito** | **Descrição**|
+|---|---|
+|RNF 08|O aplicativo deverá ter uma versão para Android. (Android 4.1 ou superior)|
+|RNF 09| O aplicativo deverá ter uma versão IOS. (iOS 8.0 ou superior)|
