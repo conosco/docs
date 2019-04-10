@@ -3,7 +3,9 @@
 |---|---|---|---|
 |25/03/2019 | 0.1 | Iniciação do Documento | Gustavo Braz |
 |31/03/2019 | 0.2 | Criação dos tópicos 3 e 4 | Djorkaeff Alexandre |
-|31/03/2019 | 0.3 | Criação dos tópicos 3.7 e ajustes no sumário | Gustavo Braz
+|31/03/2019 | 0.3 | Criação dos tópicos 3.7 e ajustes no sumário | Gustavo Braz|
+|10/04/2019 | 0.4 | Criação dos tópicos 3.1 e 3.2 e ajustes no sumário | Gustavo Braz e Augusto Vilarins|
+
 
 ## Sumário
 [1. Introdução](#_1introdução)  
@@ -28,25 +30,20 @@
 &nbsp;&nbsp;[4.4. Licenciamento e Instalação](#44-licenciamento-e-instalação)  
 [5. Restrições](#5-restricoes)  
 [6. Referências](#6-referencias)  
-[7. Faixas de qualidade](#7-faixas-de-qualidade)  
-[8. Procedência e Prioridade](#8-procedência-e-prioridade)  
-[9. Outros requisitos do produto](#9-outros-requisitos-do-produto)  
-&nbsp;&nbsp;[9.1. Requisitos do sistema](#91-requisitos-do-sistema)  
-&nbsp;&nbsp;[9.2. Requisitos de desempenho](#92-requisitos-de-desempenho)  
-[10. Desenvolvimento do documento](#10-desenvolvimento-do-documento)  
+
 
 # 1.Introdução
 
 ## 1.1 Propósito
-<p align = "justify">Este documento tem como objetivo definir e organizar as características sobre o desenvolvimento do software. Serão explicitados os aspectos principais desse processo, mostrando seus pontos vitais e as técnicas de execução.
-  
+<p align = "justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Este documento tem como objetivo definir e organizar as características sobre o desenvolvimento do software. Serão explicitados os aspectos principais desse processo, mostrando seus pontos vitais e as técnicas de execução.
+
 ## 1.2 Escopo
-<p align = "justify">O projeto tem como finalidade agrupar pessoas com interesses em comum e motivá-las a melhorar e criar novos hábitos através de gamificação. O usuário terá liberdade de criar objetivos e tarefas de acordo com sua realidade e ganhar recompensas. Criar um ambiente agradável, onde as pessoas sintam-se confortáveis para compartilhar experiências e conhecimento. O aplicativo deve ser gratuito e intuitivo.
+<p align = "justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; O projeto tem como finalidade agrupar pessoas com interesses em comum e motivá-las a melhorar e criar novos hábitos através de gamificação. O usuário terá liberdade de criar objetivos e tarefas de acordo com sua realidade e ganhar recompensas. Criar um ambiente agradável, onde as pessoas sintam-se confortáveis para compartilhar experiências e conhecimento. O aplicativo deve ser gratuito e intuitivo.
 
 ## 1.3 Visão geral
-<p align = "justify">Este documento visa descrever os detalhes sobre as características do software a ser implementado e suas técnicas para a execução do mesmo.
-O documento é dividido da seguinte maneira: inicialmente, foi explorado uma visão geral de todo o documento, exposição do problema que este projeto busca resolver e a descrição da parte interessada. Logo após, foram expostos os recursos necessários, restrições e a descrição do desempenho do produto. Por fim, foram denominados os requisitos necessários para a realização do projeto. 
-  
+<p align = "justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Este documento visa descrever os detalhes sobre as características do software a ser implementado e suas técnicas para a execução do mesmo.
+O documento é dividido da seguinte maneira: inicialmente, foi explorado uma visão geral de todo o documento, exposição do problema que este projeto busca resolver e a descrição da parte interessada. Logo após, foram expostos os recursos necessários, restrições e a descrição do desempenho do produto. Por fim, foram denominados os requisitos necessários para a realização do projeto.
+
 # 2. Posicionamento
 
 ## 2.1 Oportunidade de Negócio:
@@ -64,7 +61,7 @@ O documento é dividido da seguinte maneira: inicialmente, foi explorado uma vis
 
 ## 2.3 Instrução de Posição do Produto:
 
-<p align="justify">O Conosco é uma plataforma digital mobile para os millenials que irá transformar a vida das pessoas para melhor.</p>
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; O Conosco é uma plataforma digital mobile para os millenials que irá transformar a vida das pessoas para melhor.</p>
 
 # 3: Descrição de Usuário
 
@@ -72,9 +69,18 @@ O documento é dividido da seguinte maneira: inicialmente, foi explorado uma vis
 
 |Nome | Descrição |
 |:-----:|:----------:|
-| *Pessoas* | Procuram manter bons hábitos |
+| *Usuário Principal* | O nosso usuário principal pode ser melhor definido no [Mapa de segmentação](https://conosco.github.io/docs/#/docs/mapa-de-segmentacao) |
+| *Usuário Aderido* | São usuários que não se encaixam no perfil de usuário padrão mas mesmo assim se sentem atraídos a usar o aplicativo. |
 
 ## 3.2 Principais Necessidades do Usuário:
+
+|Necessidade | Prioridade |Interesses | Solução atual | Solução proposta|
+|:----:|:--:|:----:|:----:|:----:|
+| *Aderir a um habito* | Alta | Estimular a determinação por bons hábitos dos usuários através de novas experiências satisfatórias | Método manual e empírico de criação de habitos |De forma mais eficiente, motivar o usuário a criar e aderir a novos habitos
+| *Manter o habito na rotina* | Alta | Manter uma rotina consistente e equilibrada através da realização dos habitos escolhidos  |Método manual e pouco eficiente atravésde conhecimentos empíricos | Atráves de métodos de gamificação fornecer insumos para a fidelização do usuário nos habitos escolhidos |
+|*Compartilhar experiências sobre um hábito*| Intermediária | Ajudar a construir uma comuidade que se ajuda | Métodos pouco atrativos em relação a motivação do usuário por uma comunidade focada com o mesmo objetvo | Uma plataforma atrativa em que usuários com objetivos em comum compartilham conhecimentos e experiências para se ajudarem |
+
+
 
 ## 3.3 Ambiente de Usuário:
 
