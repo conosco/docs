@@ -14,35 +14,38 @@
 |:-:|-|
 |E01F01|Manter usuário|
 |E01F02|Manter hábito|
-|E01F03|Vizualizar informações relacionadas a um hábito|
-|E01F04|Correlacionar dados da gamificação|
-|E01F05|Vizualizar informações relacionadas a ao usuário|
-|E01F05| |
-|E02F06|Gerenciar metabase|
-|E03F07|Separar informações|
-|E03F08|Visualizar informações relacionada a um jogo|
-|E01F09|Manter dados da IGDB|
+|E01F03|Manter Dicas|
+|E01F04|Correlacionar Habitos e Dicas  |
+|E01F05|Correlacionar dados da gamificação|
+|E02F06|Correlacionar  usuários com hábitos|
+|E02F07| Dashbord de eventos |
+|E03F08|Sistema de pontuação da gamificação |
+|E03F09|Ambientação do aplicativo com o tema da gamificação |
+|E03F10| Sistema de recompensas e medalhas |
+
+
 
 ## Estórias de Usuário
 
 | Feature| Identificador | Estória | Pontuação | Status |
 |-| :---: | --- |  :---: | :---: |
-| F06 | <b><i>US01</i></b> | Eu como usuário desejo vizualizar estatísticas | 3 | CANCELADA |
-| F07 | <b><i>US02</i></b> | Eu como usuário desejo vizualizar sessão por tag | 8 | RELEASE 2 |
-| F07 | <b><i>US03</i></b> | Eu como usuário desejo vizualizar sessão por de preços | 8 | RELEASE 2 |
-| F07 | <b><i>US04</i></b> | Eu como usuário desejo vizualizar sessão por horas jogadas | 8 | RELEASE 2 |
-| F07 | <b><i>US05</i></b> | Eu como usuário desejo vizualizar sessão de companias | 8 | RELEASE 2 |
-| F07 | <b><i>US06</i></b> | Eu como usuário desejo vizualizar sessão por de ano de lançamento| 8 | CANCELADA |
-| F08 | <b><i>US07</i></b> | Eu como usuário desejo vizualizar sessão de informações da steam/SteamSpy relacionada a um Jogo  | 8 | CANCELADA |
-| F08 | <b><i>US08</i></b> | Eu como usuário desejo vizualizar sessão de informações da Youtube relacionada a um Jogo  | 8 | CANCELADA |
-| F08 | <b><i>US09</i></b> | Eu como usuário desejo vizualizar sessão de informações da Twitch relacionada a um Jogo  | 8 | CANCELADA |
-| F08 | <b><i>US10</i></b> | Eu como usuário desejo vizualizar informações do youtube relacionada a um Jogo  | 13 | CANCELADA |
-| F08 | <b><i>US11</i></b> | Eu como usuário desejo vizualizar a homepage  | 5 | &#10004; |
-| F08 | <b><i>US12</i></b> | Eu como usuário desejo vizualizar os jogos para analisar por horas streamadas   | 3 | &#x2717; |
-| F08 | <b><i>US13</i></b> | Eu como usuário desejo vizualizar jogos para analisar por popularidade   | 3 | &#x2717; |
-| F08 | <b><i>US14</i></b> | Eu como usuário desejo vizualizar um indicador para analisar relação entre visualizações e curtidas  | 3 | &#x2717; |
-| F08 | <b><i>US15</i></b> | Eu como usuário desejo pesquisar um jogo para visualizar suas informações  | 3 | &#x2717; |
-
+| F01 | <b><i>US01</i></b> | Eu, como usuário, desejo me cadastrar no sistema    | |  |
+| F01 | <b><i>US02</i></b> | Eu, como usuário, desejo fazer login com o facebook |  |  |
+| F01 | <b><i>US03</i></b> | Eu, como usuário, desejo fazer login no sistema | | |
+| F01 | <b><i>US04</i></b> | Eu, como usuário, desejo atualizar meus dados cadastrais |  |  |
+| F02 | <b><i>US05</i></b> | Eu, como usuário, desejo cadastrar um novo hábito no sistema | | |
+| F02 | <b><i>US06</i></b> | Eu, como usuário, desejo editar as informações de um hábito que eu criei | | |
+| F02 | <b><i>US07</i></b> |Eu, como usuário, desejo desejo excluir um hábito que eu criei | | |
+| F03 | <b><i>US08</i></b> | Eu, como usuário, desejo comentar uma nova dica em algum hábito que eu esteja vinculado  | |  |
+| F03 | <b><i>US09</i></b> | Eu, como usuário, desejo comentar uma nova dica em algum hábito que eu esteja vinculado  | |  |
+| F04 | <b><i>US10</i></b> | Eu, como usuário, desejo dar *upvote* nas dicas que me forem úteis  |  |  |
+| F05 | <b><i>US11</i></b> | Eu, como usuário, desejo vizualizar a minha *barra de progresso* no aplicativo  | | |
+| F06 | <b><i>US12</i></b> | Eu, como usuário, desejo me vincular a um hábito  | |  |
+| F06 | <b><i>US13</i></b> | Eu, como usuário, desejo favoritar um hábito  | |  |
+| F07 | <b><i>US14</i></b> | Eu, como usuário, desejo vizualizar um hábito específico.  | |  |
+| F07 | <b><i>US15</i></b> | Eu, como usuário, desejo vizualizar os comentários de um hábito | |  ||
+| F08 | <b><i>US16</i></b> | Eu, como usuário, desejo vizualizar minhas estatísticas da gamificação | |  ||
+| F08 | <b><i>US17</i></b> | Eu, como usuário, desejo me fidelizar a um hábito para receber recompensas | |  ||
 
 ## Estórias Técnicas
 
