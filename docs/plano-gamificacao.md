@@ -2,7 +2,10 @@
 
 | **Data** | **Versão** | **Descrição** | **Autor(es)** |
 |---|---|---|---|
-|25/03/2019 | 0.1 | Iniciação do Documento | Augusto Vilarins |
+|25/03/2019 | 0.1 | Descrição do contexto, definição do tema e descrição do perfil do usuário | Augusto Vilarins |
+|31/03/2019 | 0.2 | Definição de técnicas e ações dos jogadores| Mateus Augusto, Viter Leal e João Pedro |
+|04/03/2019 | 0.3 | Continuação da definição das ações dos jogadores | Mateus Augusto |
+|05/03/2019 | 1.0 | Definição da Jornada | Mateus Augusto |
 
 ## 1. O que é gamificação
 
@@ -32,27 +35,12 @@ Para definir o perfil do foi aplicado um questionário de perfil comportamental,
 
 Dentro da gamificação, existem alguns perfis de usuário, sendo eles:
 
-Achievers: São aqueles que querem ser os melhores players ou, pelo menos, estar dominando o
-sistema. Eles querem aprender tudo que for disponibilizado no sistema, buscando aumentar o seu
-conhecimento. Eles fazem isso por egoísmo e provavelmente não se incomodarão de ostentarem seus
-conhecimentos aos outros usuários. Eles são motivados pela maestria. <br><br>
-• Disruptors: Os disruptores tentam tumultuar o sistema de alguma maneira. Eles podem corromper os usuários ou o próprio sistema da jornada. Eles podem afetar negativamente os usuários só
-porque podem, hackear ou caçar falhas no sistema, influenciar outros usuários para mudar como
-funciona o sistema ou, até mesmo, encontrar erros para serem consertados. Eles são motivados pela
-mudança. <br><br>
-• Free Spirit: Os usuários do tipo free spirit têm, basicamente, duas vertentes: aqueles que gostam
-de explorar o mundo da gamificação livremente, fazendo a sua jornada pessoal e aqueles que gostam
-de construir coisas novas. Eles são motivados pela autonomia e expressão pessoal. <br><br>
-• Philanthropist: Eles gostam de sentir que são parte de algo maior. Eles gostam de melhorar a
-experiência dos outros, não esperando nada em troca. Eles, por exemplo, seriam jogadores que
-responderiam forums apenas para sentirem que estão ajudando. São motivados por propósito e
-significado. <br><br>
-• Player: O tipo player é importante para a introdução do usuário na gamificação através de pontos,
-prêmios, etc, sendo motivados extrinsecamente. A ideia é transformar esses players em outros
-players que são motivados intrinsecamente, como socialiser, free spirit, achiever ou philanthropist.
-Eles são motivados por prêmios. <br><br>
-• Socializer: São aqueles que buscam, no universo, o desenvolvimento das relações humanas e
-interagir com outros usuários. São motivados por conexão interpessoal.
+- Achievers: São aqueles que querem ser os melhores players ou, pelo menos, estar dominando o sistema. Eles querem aprender tudo que for disponibilizado no sistema, buscando aumentar o seu conhecimento. Eles fazem isso por egoísmo e provavelmente não se incomodarão de ostentarem seus conhecimentos aos outros usuários. Eles são motivados pela maestria. <br><br>
+- Disruptors: Os disruptores tentam tumultuar o sistema de alguma maneira. Eles podem corromper os usuários ou o próprio sistema da jornada. Eles podem afetar negativamente os usuários só porque podem, hackear ou caçar falhas no sistema, influenciar outros usuários para mudar como funciona o sistema ou, até mesmo, encontrar erros para serem consertados. Eles são motivados pela mudança. <br><br>
+- Free Spirit: Os usuários do tipo free spirit têm, basicamente, duas vertentes: aqueles que gostam de explorar o mundo da gamificação livremente, fazendo a sua jornada pessoal e aqueles que gostam de construir coisas novas. Eles são motivados pela autonomia e expressão pessoal. <br><br>
+- Philanthropist: Eles gostam de sentir que são parte de algo maior. Eles gostam de melhorar a experiência dos outros, não esperando nada em troca. Eles, por exemplo, seriam jogadores que responderiam forums apenas para sentirem que estão ajudando. São motivados por propósito e significado. <br><br>
+- Player: O tipo player é importante para a introdução do usuário na gamificação através de pontos, prêmios, etc, sendo motivados extrinsecamente. A ideia é transformar esses players em outros players que são motivados intrinsecamente, como socialiser, free spirit, achiever ou philanthropist. Eles são motivados por prêmios. <br><br>
+- Socializer: São aqueles que buscam, no universo, o desenvolvimento das relações humanas e interagir com outros usuários. São motivados por conexão interpessoal. <br><br>
 
 ![Perfil de usuários](https://i.imgur.com/wlYoF86.png)
 
@@ -67,35 +55,33 @@ interagir com outros usuários. São motivados por conexão interpessoal.
 
 
 ## 5. Ações dos Jogadores
-
 ## 5.1 Técnicas de Gamificação
 
 **Achievers**
 
-- Nível/Progressão x
-- Progresso/ feedback x
-- Emblemas e Conquistas x
-- Placar/Ranking x
-- Tutorial x
+- Nível/Progressão 
+- Progresso/ feedback 
+- Emblemas e Conquistas 
+- Placar/Ranking 
+- Tutorial 
 
 **Free Spirits** 
 
-- Easter Eggs
+- Easter Eggs 
 
 **Philantropists** 
 
-- Compartilhar Conhecimento x
-- Votação x
+- Compartilhar Conhecimento 
+- Votação
 
 **Players**
 
-- Nível/Progressão x
-- Progresso/feedback x
-- Emblemas e Conquistas x
-- Placar/ Ranking x
-- Tutorial x
-
-- Easter Eggs
+- Nível/Progressão
+- Progresso/feedback 
+- Emblemas e Conquistas 
+- Placar/ Ranking 
+- Tutorial
+- Easter Eggs 
 
 
 ## 5.2 Ações do jogador
@@ -126,19 +112,30 @@ interagir com outros usuários. São motivados por conexão interpessoal.
     - Nível Onça Guerrilheira (faixa de nível de 30 - 39)
 
 - Emblemas e Conquistas: Estas serão adiquiridas conforme o usuário executa certas tarefas
-    - Tarefa 1
-    - Tarefa 2
-    - Tarefa 3
-    - Tarefa 4
+    - Medalha por completar o Tutorial (Easter Eggs)
+    - Medalha por nível: estas medalhas são conquistadas conforme o jogador passa para um próximo nível
+        - Medalha Nível Mico Fofinho
+        - Medalha Nível Capivara Valente 
+        - Medalha Nível Jaguatirica Truvada 
+        - Medalha Nível Onça Guerrilheira 
+    - Medalha por criar postagens (Easter Eggs)
+        - Quantidade de postagens (10 - 50 - 100 - 200 - 500 - 1000)
+    - Medalha por contribuir em postagens (Easter Eggs)
+        - Quantidade de contribuições (10 - 50 - 100 - 200 - 500 - 1000)
+    - Medalha por avaliar relevância (Easter Eggs)
+        - Quantidade de avaliações (10 - 50 - 100 - 200 - 500 - 1000)
 
+## 6. Jornada
 
+- Descoberta: Essa fase é compreendida como o momento em que os jogadores tomam conhecimento acerca da gamificação desenvolvida. É importante que nesse estágio o jogador sinta-se tentado a abraçar a ideia e, naturalmente, se voluntarie a participar da jornada. Assim que o jogador opta por ingressar na gamificação, a fase de descoberta se encerra. 
+    - Esta fase vai desde quando o jogador é apresentado ao "Saruê Jurandir" que lhe dará as boas-vindas ao Acampamento CONOSCO e vai até a conclusão do tutorial pelo app.<br><br>
 
-## 6. Jornada 
+- Entrada: Nessa fase o jogador irá começar a fazer parte da gamificação de fato. 
+    - Nesta fase o jogador é inserido na gamificação ao criar um card de hábito. <br><br>
 
-Descoberta: Essa fase é compreendida como o momento em que os players tomam conhecimento
-acerca da gamificação desenvolvida. É importante que nesse estágio o player sinta-se tentado a
-abraçar a ideia e, naturalmente, se voluntarie a participar da jornada. Assim que o jogador opta
-por ingressar na gamificação, a fase de descoberta se encerra. <br><br>
-• Entrada: Nessa fase o player irá começar a fazer parte da gamificação de fato. <br><br>
-• Dia-a-Dia: É onde o player participará das principais atividades da gamificação. <br><br>
-• Saída: Aqui o player receberá os resultados de suas atividades na fase do dia-a-dia e será redirecionado novamente para a fase de entrada.
+- Dia-a-Dia: É onde o jogador participará das principais atividades da gamificação. 
+    - Nesta fase o jogador irá acompanhar o desenvolvimento de seu hábito dia-a-dia. Irá criar fóruns, postagens, contribuir e avaliá-los com o objetivo de adiquirir as informações, técnias e estratégias para cumprir com sua meta para o hábito. Com o objetivo de estimular o jogador a seguir esse fluxo, a gamificaçã do app traz artifícios para que ele acumule influência(XP) a medida que executar suas atividades e conquiste medalhas. Como resultado o jogador subirá de nível.<br><br>
+
+- Saída: Aqui o jogador receberá os resultados de suas atividades na fase do dia-a-dia e será redirecionado novamente para a fase de entrada. 
+    - Nesta fase o jogador percebe que ao realizar as atividades do app ele conseguiu cumprir com a meta de seu hábito, sendo assim o jogador se sentirá motivado a iniciar mais outro hábito.<br><br>
+

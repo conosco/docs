@@ -3,7 +3,8 @@
 | **Data** | **Versão** | **Descrição** | **Autor(es)** |
 |---|---|---|---|
 |29/03/2019 | 0.1 | Adição de Objetivo | Ícaro Oliveira |
-|31/03/2019 | 0.8 | Adição de Objetivo, Contexto, Contêiners e Componentes | Ícaro Oliveira |
+|31/03/2019 | 0.2 | Adição de Objetivo, Contexto, Contêiners e Componentes | Ícaro Oliveira |
+|04/04/2019 | 0.3 | Adição de Pipeline | Augusto Vilarins, Djorkaeff Alexandre, Guilherme Siqueira, Ícaro Oliveira |
 
 ## Sumário
 - [Arquitetura](#arquitetura)
@@ -15,6 +16,7 @@
       - [3.1.1 Aplicativo *mobile* híbrido utilizando React Native](#311-aplicativo-mobile-h%C3%ADbrido-utilizando-react-native)
       - [3.1.2 API RESTful utilizando NestJS e TypeScript](#312-api-restful-utilizando-nestjs-e-typescript)
       - [3.1.3 Banco de dados utilizando PostgreSQL](#313-banco-de-dados-utilizando-postgresql)
+      - [3.1.4 Pipeline](#314-pipeline)
 
 
 ## 1. Objetivo
@@ -63,3 +65,6 @@ Foi escolhido o **[NestJS](http://nestjs.com)** como **framework** para a constr
 #### 3.1.3 Banco de dados utilizando PostgreSQL
 
 A camada de persistência de dados será feita utilizando o modelo relacional e a tecnologia escolhida foi o [PostgreSQL](https://www.postgresql.org/).
+
+#### 3.1.4 Pipeline 
+![pipeline](https://cdn.discordapp.com/attachments/557709025265975327/562049330308055040/pipeline_conosco.png)
