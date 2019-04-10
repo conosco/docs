@@ -78,7 +78,7 @@ O documento é dividido da seguinte maneira: inicialmente, foi explorado uma vis
 |:----:|:--:|:----:|:----:|:----:|
 | *Aderir a um habito* | Alta | Estimular a determinação por bons hábitos dos usuários através de novas experiências satisfatórias | Método manual e empírico de criação de habitos |De forma mais eficiente, motivar o usuário a criar e aderir a novos habitos
 | *Manter o habito na rotina* | Alta | Manter uma rotina consistente e equilibrada através da realização dos habitos escolhidos  |Método manual e pouco eficiente atravésde conhecimentos empíricos | Atráves de métodos de gamificação fornecer insumos para a fidelização do usuário nos habitos escolhidos |
-|*Compartilhar experiências sobre um hábito*| Intermediária | Ajudar a construir uma comuidade que se ajuda | Métodos pouco atrativos em relação a motivação do usuário por uma comunidade focada com o mesmo objetvo | Uma plataforma atrativa em que usuários com objetivos em comum compartilham conhecimentos e experiências para se ajudarem |
+|*Compartilhar experiências sobre um hábito*| Intermediária | Ajudar a construir uma comuidade que se ajuda | Métodos pouco atrativos em relação a motivação do usuário por uma comunidade focada com o mesmo objetvo | Uma plataforma atrativa em que usuários com objetivos em comum compartilham conhecimentos e experiências para se ajudarem | 
 
 
 
