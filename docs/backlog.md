@@ -17,11 +17,11 @@
 |E01F03|Manter Dicas|
 |E01F04|Correlacionar Habitos e Dicas  |
 |E01F05|Correlacionar dados da gamificação|
-|E02F06|Correlacionar  usuários com hábitos|
-|E02F07| Dashbord de eventos |
-|E03F08|Sistema de pontuação da gamificação |
-|E03F09|Ambientação do aplicativo com o tema da gamificação |
-|E03F10| Sistema de recompensas e medalhas |
+|E02F06|Correlacionar usuários com hábitos|
+|E02F07|Manter Dashbord de eventos |
+|E03F08|Aplicar Sistema de pontuação da gamificação |
+|E03F09|Correlacionar Ambientação do aplicativo com o tema da gamificação |
+|E03F10|Aplicar Sistema de recompensas e medalhas |
 
 
 
