@@ -17,3 +17,4 @@
   - [Requisitos de Qualidade](/docs/requisitos_qualidade.md)
   - [Backlog do produto](/docs/backlog.md)
   - [Protótipo](/docs/prototipo.md)
+  - [Manual de Identidade Visual](/docs/identidade-visual.md)
