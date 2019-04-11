@@ -46,6 +46,7 @@
 | F07 | <b><i>US15</i></b> | Eu, como usuário, desejo vizualizar os comentários de um hábito | |  ||
 | F08 | <b><i>US16</i></b> | Eu, como usuário, desejo vizualizar minhas estatísticas da gamificação | |  ||
 | F08 | <b><i>US17</i></b> | Eu, como usuário, desejo me fidelizar a um hábito para receber recompensas | |  ||
+| F05 | <b><i>US18</i></b> | Eu, como usuário, desejo ser guiado por um tutorial quando necessário | |  ||
 
 ## Estórias Técnicas
 
