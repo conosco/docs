@@ -46,7 +46,11 @@
 | F07 | <b><i>US15</i></b> | Eu, como usuário, desejo vizualizar os comentários de um hábito | |  ||
 | F08 | <b><i>US16</i></b> | Eu, como usuário, desejo vizualizar minhas estatísticas da gamificação | |  ||
 | F08 | <b><i>US17</i></b> | Eu, como usuário, desejo me fidelizar a um hábito para receber recompensas | |  ||
-| F05 | <b><i>US18</i></b> | Eu, como usuário, desejo ser guiado por um tutorial quando necessário | |  ||
+| F09 | <b><i>US18</i></b> | Eu, como usuário, desejo ser guiado por um tutorial quando necessário | |  ||
+| F09 | <b><i>US19</i></b> | Eu, como usuário, desejo ser desafiado a realizar minhas atividades | |  ||
+| F09 | <b><i>US20</i></b> | Eu, como usuário, desejo acumular XP enquanto finalizar minhas atividades | |  ||
+| F10 | <b><i>US21</i></b> | Eu, como usuário, desejo receber emblemas e certificados de conquista após executar certas tarefas | |  ||
+| F10 | <b><i>US22</i></b> | Eu, como usuário, desejo receber medalhas por níveis alcançados | |  ||
 
 ## Estórias Técnicas
 
@@ -63,9 +67,17 @@
 | F05 | <b><i>TS09</i></b> | Eu como desenvolvedor desejo atualizar o banco periodicamente | 8 | RELEASE 2  |
 | F05 | <b><i>TS10</i></b> | Eu como desenvolvedor desejo guardar histórico de atualizações | 21 | &#x2717; |
 | F06 | <b><i>TS11</i></b> | Eu como desenvolvedor desejo integrar crossdata com o metabase | 3 | &#x2717; |
-| F09 | <b><i>TS12</i></b> | Eu como desenvolvedor desejo importar dados da IGDB API | 2 | &#10004; |
-| F09 | <b><i>TS13</i></b> | Eu como desenvolvedor desejo criar models da IGDB API | 2 | &#10004; |
-| F08 | <b><i>TS14</i></b> | Eu como desenvolvedor desejo criar interface para visualização | 5 | &#10004; |
+| F07 | <b><i>TS12</i></b> | Eu como desenvolvedor desejo criar uma interface para o dashboard | 3 | &#x2717; |
+| F07 | <b><i>TS13</i></b> | Eu como desenvolvedor desejo atualizar automaticamente o dashboard de eventos do usuário | 3 | &#x2717; |
+| F07 | <b><i>TS14</i></b> | Eu como desenvolvedor desejo criar testes automatizados para o dashboard | 1 | &#x2717; |
+| F09 | <b><i>TS15</i></b> | Eu como desenvolvedor desejo importar dados da IGDB API | 2 | &#10004; |
+| F09 | <b><i>TS16</i></b> | Eu como desenvolvedor desejo criar models da IGDB API | 2 | &#10004; |
+| F08 | <b><i>TS17</i></b> | Eu como desenvolvedor desejo criar interface para visualização | 5 | &#10004; |
+| F09 | <b><i>TS18</i></b> | Eu como desenvolvedor desejo criar interface para visualização | 5 | &#10004; |
+| F10 | <b><i>TS19</i></b> | Eu como desenvolvedor desejo converter o desempenho do usuário em recompensas | 3 | &#x2717; |
+| F10 | <b><i>TS13</i></b> | Eu como desenvolvedor desejo criar <i>easter eggs</i> como forma de recompensas | 3 | &#x2717; |
+
+
 
 ## Pontuação Final
 
