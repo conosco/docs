@@ -95,6 +95,11 @@ O documento é dividido da seguinte maneira: inicialmente, foi explorado uma vis
 |Guilherme Siqueira | Desenvolvedor| Desenvolver a aplicação e manter a documentação atualizada| Alto|
 |Djorkaeff Alexandre Vilela Pereira | Desenvolvedor| Desenvolver a aplicação e manter a documentação atualizada| Alto|
 |Gustavo Vieira Braz | Desenvolvedor | Desenvolver a aplicação e manter a documentação atualizada| Alto|
+|Rodrigo Dadamos | Desenvolvedor | Desenvolver a aplicação e manter a documentação atualizada| Alto|
+|Mateus Augusto | Desenvolvedor | Desenvolver a aplicação e manter a documentação atualizada| Alto|
+|Vitor Leal | Desenvolvedor | Desenvolver a aplicação e manter a documentação atualizada| Alto|
+|Ana Carolina Carvalho | Desenvolvedor | Desenvolver a aplicação e manter a documentação atualizada| Alto|
+|João Pedro| Desenvolvedor | Desenvolver a aplicação e manter a documentação atualizada| Alto|
 
 ## 3.5 Alternativas e Concorrência:
 
