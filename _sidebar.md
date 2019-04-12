@@ -9,7 +9,10 @@
     - [SADT](/docs/sadt.md)
     - [Banco](#)
       - [DE-R](/docs/der.md)
+    - [Modelagem UML](#)
+      - [Diagrama de classe](Docs/diagramasuml.md)
   - [Análise](#)
+
 - [Abertura e Especificação](#)
   - [EAP](/docs/eap.md)
   - [Documento de Visão](/docs/documento-visao.md)
