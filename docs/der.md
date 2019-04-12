@@ -7,7 +7,7 @@
 ## Sumário
 - [1. Introdução](#1Introduo)
 - [2. DER](#2DER)
-- [3. Referências Bibliográficas](#3Referncia Bibliogrfica)
+- [3. Referências Bibliográficas](#3RefernciaBibliogrfica)
 
 
 ## 1. Introdução
