@@ -20,3 +20,4 @@
   - [Backlog do produto](/docs/backlog.md)
   - [Protótipo](/docs/prototipo.md)
   - [Manual de Identidade Visual](/docs/identidade-visual.md)
+  - [Quadro de Conhecimento](/docs/quadro-conhecimento.md)
