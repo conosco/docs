@@ -24,12 +24,12 @@
 ![concepcao](../assets/img/Bizagi/fase-de-concepcao.png)
 
 ### 2.1 Fase de Elaboração
-![elaboracao](../assets/img/Bizagi/fase-de-elaboracao.png)
+![elaboracao](../assets/img/Bizagi/modelagem_elaboração.png)
 
 ### 2.2 Fase de Desenvolvimento
-![desenvolvimento](../assets/img/Bizagi/fase-de-desenvolvimento.png)
+![desenvolvimento](../assets/img/Bizagi/bizage1.png)
 
 ### 2.3 Fase de Encerramento
-![concepcao](../assets/img/Bizagi/fase-de-encerramento.png)
+![concepcao](../assets/img/Bizagi/modelagem_encerramento.png)
 
 ### 3 Referência Bibliográfica
