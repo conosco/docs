@@ -49,6 +49,8 @@
 | F09 | <b><i>US18</i></b> | Eu, como usuário, desejo ser guiado por um tutorial quando necessário | |  ||
 | F09 | <b><i>US19</i></b> | Eu, como usuário, desejo ser desafiado a realizar minhas atividades | |  ||
 | F09 | <b><i>US20</i></b> | Eu, como usuário, desejo acumular XP enquanto finalizar minhas atividades | |  ||
+| F10 | <b><i>US21</i></b> | Eu, como usuário, desejo receber emblemas e certificados de conquista após executar certas tarefas | |  ||
+| F10 | <b><i>US22</i></b> | Eu, como usuário, desejo receber medalhas por níveis alcançados | |  ||
 
 ## Estórias Técnicas
 
@@ -68,6 +70,8 @@
 | F09 | <b><i>TS12</i></b> | Eu como desenvolvedor desejo importar dados da IGDB API | 2 | &#10004; |
 | F09 | <b><i>TS13</i></b> | Eu como desenvolvedor desejo criar models da IGDB API | 2 | &#10004; |
 | F08 | <b><i>TS14</i></b> | Eu como desenvolvedor desejo criar interface para visualização | 5 | &#10004; |
+| F09 | <b><i>TS14</i></b> | Eu como desenvolvedor desejo criar interface para visualização | 5 | &#10004; |
+
 
 ## Pontuação Final
 
