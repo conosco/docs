@@ -7,6 +7,8 @@
   - [Modelagem](#)
     - [Bizagi](/docs/bizagi.md)
     - [SADT](/docs/sadt.md)
+      - [Banco](#)
+        - [DE-R](/docs/der.md)
   - [Análise](#)
 - [Abertura e Especificação](#)
   - [EAP](/docs/eap.md)
