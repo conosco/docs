@@ -10,7 +10,7 @@
     - [Banco](#)
       - [DE-R](/docs/der.md)
     - [Modelagem UML](#)
-      - [Diagrama de classe](Docs/diagramasuml.md)
+      - [Diagrama de classe](/docs/diagramasuml.md)
   - [Análise](#)
 
 - [Abertura e Especificação](#)
