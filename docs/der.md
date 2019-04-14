@@ -22,4 +22,4 @@ Diagrama Entidade Relacionamento (DER) é a representação gráfica do modelo c
 
 ## 3. Diagrama Lógico
 
-![logico-1](../assets/img/banco/conosco_logico_v1.png)
+![logico-1](../assets/img/banco/der_v2.jpg)
