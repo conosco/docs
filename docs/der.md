@@ -18,7 +18,13 @@ Diagrama Entidade Relacionamento (DER) é a representação gráfica do modelo c
 
 ## 2. DER
 
+### DER versão 1
+
 ![der](../assets/img/banco/der-v1.png)
+
+### DER versão 2
+
+![der](../assets/img/banco/der_v3.jpg)
 
 ## 3. Diagrama Lógico
 
