@@ -15,3 +15,8 @@ Segue abaixo o diagrama de classe feito pela equipe. O diagrama pode ser vizuali
 ## Diagrama de classe versão 0.2
 
 ![concepcao](../assets/img/Bizagi/classe.png)
+
+
+## Diagrama de classe versão 0.3
+
+![concepcao](../assets/img/arq/Diagrama_classe2.png)
