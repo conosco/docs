@@ -4,6 +4,6 @@ Segue abaixo a diagramação feita pela equipe no intuito de modelar e elucidar 
 
 ## Diagrama de classe
 
-Segue abaixo o diagrama de classe feito pela equipe. O diagrama pode ser vizualizado em tamanho maior neste [Link](www.google.com)
+Segue abaixo o diagrama de classe feito pela equipe. O diagrama pode ser vizualizado em tamanho maior neste [Link](https://www.draw.io/#G10nOgtsqtQeo5Sjdg5-TZ56h57giAfR8c)
 
-![concepcao](../assets/img/Bizagi/classe.jpg)
+![concepcao](../assets/img/Bizagi/classe.png)
