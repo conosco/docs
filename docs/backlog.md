@@ -56,26 +56,17 @@
 
 | Feature | Identificador | Estória | Pontuação | Status |
 | :-: | :---: | --- |  :---: | :---: |
-| F01 | <b><i>TS01</i></b> | Eu como desenvolvedor desejo Importar dados da Steam/SteamSpy API | 2 | &#10004;|
-| F01 | <b><i>TS02</i></b> | Eu como desenvolvedor desejo criar models da Steam/Steamspy API | 2 | &#10004; |
-| F02 | <b><i>TS03</i></b> | Eu como desenvolvedor desejo importar dados da Youtube API | 8 | &#10004; |
-| F02 | <b><i>TS04</i></b> | Eu como desenvolvedor desejo criar models da Youtube API | 2 | &#10004;|
-| F03 | <b><i>TS05</i></b> | Eu como desenvolvedor desejo importar dados da Twitch API | 2 | &#10004; |
-| F03 | <b><i>TS06</i></b> | Eu como desenvolvedor desejo criar models da Twitch API | 2 | &#10004; |
-| F04 | <b><i>TS07</i></b> | Eu como desenvolvedor desejo criar models que comportam multiplos modelos | 3 | &#10004; |
-| F04 | <b><i>TS08</i></b> | Eu como desenvolvedor desejo importar dados relacionados | 13 | &#10004; |
-| F05 | <b><i>TS09</i></b> | Eu como desenvolvedor desejo atualizar o banco periodicamente | 8 | RELEASE 2  |
-| F05 | <b><i>TS10</i></b> | Eu como desenvolvedor desejo guardar histórico de atualizações | 21 | &#x2717; |
-| F06 | <b><i>TS11</i></b> | Eu como desenvolvedor desejo integrar crossdata com o metabase | 3 | &#x2717; |
-| F07 | <b><i>TS12</i></b> | Eu como desenvolvedor desejo criar uma interface para o dashboard | 3 | &#x2717; |
-| F07 | <b><i>TS13</i></b> | Eu como desenvolvedor desejo atualizar automaticamente o dashboard de eventos do usuário | 3 | &#x2717; |
-| F07 | <b><i>TS14</i></b> | Eu como desenvolvedor desejo criar testes automatizados para o dashboard | 1 | &#x2717; |
-| F09 | <b><i>TS15</i></b> | Eu como desenvolvedor desejo importar dados da IGDB API | 2 | &#10004; |
-| F09 | <b><i>TS16</i></b> | Eu como desenvolvedor desejo criar models da IGDB API | 2 | &#10004; |
-| F08 | <b><i>TS17</i></b> | Eu como desenvolvedor desejo criar interface para visualização | 5 | &#10004; |
-| F09 | <b><i>TS18</i></b> | Eu como desenvolvedor desejo criar interface para visualização | 5 | &#10004; |
-| F10 | <b><i>TS19</i></b> | Eu como desenvolvedor desejo converter o desempenho do usuário em recompensas | 3 | &#x2717; |
-| F10 | <b><i>TS13</i></b> | Eu como desenvolvedor desejo criar <i>easter eggs</i> como forma de recompensas | 3 | &#x2717; |
+| F01 | <b><i>TS01</i></b> |Eu como desenvolvedor desejo criar models de acordo com o estipulado no diagrama de classes  |  |
+| F01 | <b><i>TS02</i></b> | Eu como desenvolvedor desejo criar models que comportam multiplos modelos |  |  |
+| F02 | <b><i>TS03</i></b> |  Eu como desenvolvedor desejo importar dados do facebook  |  |  |
+| F02 | <b><i>TS04</i></b> | Eu como desenvolvedor desejo guardar histórico de atualizações |  | |
+| F03 | <b><i>TS05</i></b> | Eu como desenvolvedor desejo criar uma interface para o dashboard |  |  |
+| F03 | <b><i>TS06</i></b> | Eu como desenvolvedor desejo atualizar automaticamente o dashboard de eventos do usuário |  | |
+| F04 | <b><i>TS07</i></b> | Eu como desenvolvedor desejo criar testes automatizados para o dashboard |  |  |
+| F04 | <b><i>TS08</i></b> |  Eu como desenvolvedor desejo criar interface para visualização | |  |
+| F05 | <b><i>TS09</i></b> | Eu como desenvolvedor desejo criar interface para visualização |  |  |
+| F05 | <b><i>TS10</i></b> | Eu como desenvolvedor desejo converter o desempenho do usuário em recompensas  |  |  |
+| F06 | <b><i>TS11</i></b> |Eu como desenvolvedor desejo criar <i>easter eggs</i> como forma de recompensas  |  |  | |
 
 
 
@@ -83,8 +74,8 @@
 
 | Tipo de Estória | Pontuação Geral |
 | :---: | :---: |
-| Usuário | 49 |
+| Usuário | |
 ||+|
-| Técnica | 67 |
+| Técnica |  |
 ||=|
-| <b><i>Release 1</i></b> | 116 |
+| <b><i>Release</i></b> |  |
