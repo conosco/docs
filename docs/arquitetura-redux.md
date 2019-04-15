@@ -25,6 +25,8 @@
 
 ## Diagrama do Redux
 
+![gif](https://blog.gisspan.com/img/redux.gif)
+
 ![Diagrama do redux](../assets/img/arq/Diagrama-pacotes-redux.png)
 
 # Referências bibliográficas
