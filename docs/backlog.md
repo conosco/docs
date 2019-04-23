@@ -39,21 +39,21 @@
 | F01 | <b><i>US02</i></b> | Eu, como usuário, desejo fazer login com o facebook |  |  |
 | F01 | <b><i>US03</i></b> | Eu, como usuário, desejo fazer login no sistema | | |
 | F01 | <b><i>US04</i></b> | Eu, como usuário, desejo fazer logoff no sistema |  |  |
-| F01 | <b><i>US04</i></b> | Eu, como usuário, desejo ver sobre o Conosco |  |  |
+| F01 | <b><i>US05</i></b> | Eu, como usuário, desejo ver sobre o Conosco |  |  |
 | F01 | <b><i>US06</i></b> | Eu, como usuário, desejo atualizar meus dados cadastrais |  |  |
 | F02 | <b><i>US07</i></b> | Eu, como usuário, desejo cadastrar um novo hábito no sistema | | |
 | F02 | <b><i>US08</i></b> | Eu, como usuário, desejo editar as informações de um hábito que eu criei | | |
 | F02 | <b><i>US09</i></b> | Eu, como usuário, desejo desejo excluir um hábito que eu criei | | |
 | F03 | <b><i>US10</i></b> | Eu, como usuário, desejo comentar uma nova dica em algum hábito que eu esteja vinculado  | |  |
-| F04 | <b><i>US12</i></b> | Eu, como usuário, desejo dar *upvote* nas dicas que me forem úteis  |  |  |
-| F05 | <b><i>US13</i></b> | Eu, como usuário, desejo vizualizar a minha *barra de progresso* no aplicativo  | | |
-| F06 | <b><i>US14</i></b> | Eu, como usuário, desejo me vincular a um hábito  | |  |
-| F06 | <b><i>US16</i></b> | Eu, como usuário, desejo vizualizar um hábito específico.  | |  |
-| F06 | <b><i>US17</i></b> | Eu, como usuário, desejo vizualizar os comentários de um dica | |  ||
-| F07 | <b><i>US25</i></b> | Eu, como usuário, desejo ver eventos disponíveis de um hábito | |  ||
-| F07 | <b><i>US25</i></b> | Eu, como usuário, desejo participar de um evento | |  ||
-| F07 | <b><i>US25</i></b> | Eu, como usuário, desejo criar um evento | |  ||
-| F08 | <b><i>US18</i></b> | Eu, como usuário, desejo vizualizar meu desempenho | |  ||
+| F04 | <b><i>US11</i></b> | Eu, como usuário, desejo dar *upvote* nas dicas que me forem úteis  |  |  |
+| F05 | <b><i>US12</i></b> | Eu, como usuário, desejo vizualizar a minha *barra de progresso* no aplicativo  | | |
+| F06 | <b><i>US13</i></b> | Eu, como usuário, desejo me vincular a um hábito  | |  |
+| F06 | <b><i>US14</i></b> | Eu, como usuário, desejo vizualizar um hábito específico.  | |  |
+| F06 | <b><i>US15</i></b> | Eu, como usuário, desejo vizualizar os comentários de um dica | |  ||
+| F07 | <b><i>US16</i></b> | Eu, como usuário, desejo ver eventos disponíveis de um hábito | |  ||
+| F07 | <b><i>US17</i></b> | Eu, como usuário, desejo participar de um evento | |  ||
+| F07 | <b><i>US18</i></b> | Eu, como usuário, desejo criar um evento | |  ||
+| F08 | <b><i>US19</i></b> | Eu, como usuário, desejo vizualizar meu desempenho | |  ||
 | F09 | <b><i>US20</i></b> | Eu, como usuário, desejo ser guiado por um tutorial quando necessário | |  ||
 | F09 | <b><i>US21</i></b> | Eu, como usuário, desejo ser desafiado a realizar minhas atividades | |  ||
 | F09 | <b><i>US22</i></b> | Eu, como usuário, desejo acumular XP enquanto finalizar minhas atividades | |  ||
