@@ -1,4 +1,9 @@
 # Backlog do produto
+| **Data** | **Versão** | **Descrição** | **Autor(es)** |
+|---|---|---|---|
+|12/04/2019 | 0.1 | Iniciação do Backlog | Todos |
+|12/04/2019 | 0.2 | Correção e atualização | Ana Carolina Carvalho |
+
 
 ## Épicos
 
