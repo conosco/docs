@@ -23,7 +23,7 @@
       - [Arquitetura Redux](/docs/arquitetura-redux.md)
   - [Requisitos de Qualidade](/docs/requisitos_qualidade.md)
   - [Backlog do produto](/docs/backlog.md)
-        - [Priorização](/docs/priorizacao.md)
+      - [Priorização](/docs/priorizacao.md)
   - [Protótipo](/docs/prototipo.md)
   - [Manual de Identidade Visual](/docs/identidade-visual.md)
   - [Quadro de Conhecimento](/docs/quadro-conhecimento.md)
