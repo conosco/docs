@@ -38,6 +38,6 @@
 
 ----
 
-# Quadro de conhecimento /  Pareamentos
+# Quadro de conhecimento
 
 ![Imgur](https://i.imgur.com/wPabFFC.png)
