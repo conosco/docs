@@ -12,10 +12,10 @@
   - [Modelagem UML](#)
       - [Diagrama de classe](/docs/diagramasuml.md)
       - [Diagrama de casos de uso](/docs/diagrama-casos-de-uso.md)
-     
+
   - [Modelagem Dinâmica](#)
       - [Diagrama de colaboração](/docs/diagrama-colaboracao.md)
-      
+
   - [Análise](#)
 
 - [Abertura e Especificação](#)
@@ -31,3 +31,7 @@
   - [Protótipo](/docs/prototipo.md)
   - [Manual de Identidade Visual](/docs/identidade-visual.md)
   - [Quadro de Conhecimento](/docs/quadro-conhecimento.md)
+
+- [Release](#)
+  - [Sprint01](#)
+      - [Planejamento](/docs/planejamentoSprint01.md)
