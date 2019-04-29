@@ -4,4 +4,4 @@
 
 # Diagrama de Colaboração versão 0.2
 
-![concepcao](../assets/img/diagrama-colaboracao/diagrama_colaboracao2.png)
+![concepcao](../assets/img/diagrama-colaboracao/diagrama_colaboracao3.png)
