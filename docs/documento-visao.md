@@ -6,30 +6,29 @@
 |31/03/2019 | 0.3 | Criação dos tópicos 3.7 e ajustes no sumário | Gustavo Braz|
 |10/04/2019 | 0.4 | Criação dos tópicos 3.1 e 3.2 e ajustes no sumário | Gustavo Braz e Augusto Vilarins|
 
-
 ## Sumário
-[1. Introdução](#_1introdução)  
-&nbsp;&nbsp;[1.1. Propósito](#_11-propósito)  
-&nbsp;&nbsp;[1.2. Escopo](#12-escopo)   
-&nbsp;&nbsp;[1.3. Visão Geral](#15-visão-geral)  
-[2. Posicionamento](#2-posicionamento)  
-&nbsp;&nbsp;[2.1. Oportunidade de Negócios](#21-oportunidade-de-negócios)  
-&nbsp;&nbsp;[2.2. Descrição do problema](#22-descrição-do-problema)  
-&nbsp;&nbsp;[2.3. Instrução de Posição do Produto](#23-instrução-de-posição-do-produto)  
-[3. Descrições da parte interessada e do usuário](#3-descrições-da-parte-interessada-e-do-usuário)  
-&nbsp;&nbsp;[3.1. Resumo da Parte Interessada](#31-resumo-da-parte-interessada)  
-&nbsp;&nbsp;[3.2. Resumo do Usuário](#32-resumo-do-usuário)  
-&nbsp;&nbsp;[3.3. Ambiente de usuário](#33-ambiente-de-usuário)  
-&nbsp;&nbsp;[3.4. Perfis das Partes Interessadas](#34-perfis-das-partes-interessadas)  
-&nbsp;&nbsp;[3.5. Perfis dos usuários](#35-perfis-dos-usuários)  
-&nbsp;&nbsp;[3.7. Alternativas e Concorrência](#37-alternativas-e-concorrência)  
-[4. Visão geral do produto](#4-visão-geral-do-produto)  
-&nbsp;&nbsp;[4.1. Propósito do Produto](#41-perspectiva-do-produto)  
-&nbsp;&nbsp;[4.2. Recursos do Produto](#42-resumo-das-capacidades)  
-&nbsp;&nbsp;[4.3. Suposições e Dependências](#43-suposições-e-dependências)  
-&nbsp;&nbsp;[4.4. Licenciamento e Instalação](#44-licenciamento-e-instalação)  
-[5. Restrições](#5-restricoes)  
-[6. Referências](#6-referencias)  
+[1. Introdução](#_1introdução)
+&nbsp;&nbsp;[1.1. Propósito](#_11-propósito)
+&nbsp;&nbsp;[1.2. Escopo](#12-escopo)
+&nbsp;&nbsp;[1.3. Visão Geral](#15-visão-geral)
+[2. Posicionamento](#2-posicionamento)
+&nbsp;&nbsp;[2.1. Oportunidade de Negócios](#21-oportunidade-de-negócios)
+&nbsp;&nbsp;[2.2. Descrição do problema](#22-descrição-do-problema)
+&nbsp;&nbsp;[2.3. Instrução de Posição do Produto](#23-instrução-de-posição-do-produto)
+[3. Descrições da parte interessada e do usuário](#3-descrições-da-parte-interessada-e-do-usuário)
+&nbsp;&nbsp;[3.1. Resumo da Parte Interessada](#31-resumo-da-parte-interessada)
+&nbsp;&nbsp;[3.2. Resumo do Usuário](#32-resumo-do-usuário)
+&nbsp;&nbsp;[3.3. Ambiente de usuário](#33-ambiente-de-usuário)
+&nbsp;&nbsp;[3.4. Perfis das Partes Interessadas](#34-perfis-das-partes-interessadas)
+&nbsp;&nbsp;[3.5. Perfis dos usuários](#35-perfis-dos-usuários)
+&nbsp;&nbsp;[3.7. Alternativas e Concorrência](#37-alternativas-e-concorrência)
+[4. Visão geral do produto](#4-visão-geral-do-produto)
+&nbsp;&nbsp;[4.1. Propósito do Produto](#41-perspectiva-do-produto)
+&nbsp;&nbsp;[4.2. Recursos do Produto](#42-resumo-das-capacidades)
+&nbsp;&nbsp;[4.3. Suposições e Dependências](#43-suposições-e-dependências)
+&nbsp;&nbsp;[4.4. Licenciamento e Instalação](#44-licenciamento-e-instalação)
+[5. Restrições](#5-restricoes)
+[6. Referências](#6-referencias)
 
 
 # 1.Introdução
@@ -78,7 +77,7 @@ O documento é dividido da seguinte maneira: inicialmente, foi explorado uma vis
 |:----:|:--:|:----:|:----:|:----:|
 | *Aderir a um habito* | Alta | Estimular a determinação por bons hábitos dos usuários através de novas experiências satisfatórias | Método manual e empírico de criação de habitos |De forma mais eficiente, motivar o usuário a criar e aderir a novos habitos
 | *Manter o habito na rotina* | Alta | Manter uma rotina consistente e equilibrada através da realização dos habitos escolhidos  |Método manual e pouco eficiente atravésde conhecimentos empíricos | Atráves de métodos de gamificação fornecer insumos para a fidelização do usuário nos habitos escolhidos |
-|*Compartilhar experiências sobre um hábito*| Intermediária | Ajudar a construir uma comuidade que se ajuda | Métodos pouco atrativos em relação a motivação do usuário por uma comunidade focada com o mesmo objetvo | Uma plataforma atrativa em que usuários com objetivos em comum compartilham conhecimentos e experiências para se ajudarem | 
+|*Compartilhar experiências sobre um hábito*| Intermediária | Ajudar a construir uma comuidade que se ajuda | Métodos pouco atrativos em relação a motivação do usuário por uma comunidade focada com o mesmo objetvo | Uma plataforma atrativa em que usuários com objetivos em comum compartilham conhecimentos e experiências para se ajudarem |
 
 
 

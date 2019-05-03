@@ -1,7 +1,7 @@
 # Mapa de Segmentação
 | **Data** | **Versão** | **Descrição** | **Autor(es)** |
 |---|---|---|---|
-|04/04/2019 | 0.1 | Adição de mapa de segmentação |  |
+|04/04/2019 | 0.1 | Adição de mapa de segmentação |  Ana Carolina Carvalho, Augusto Vilarins, Djorkaeff Alexandre, Guilherme Siqueira, Gustavo Braz, Ícaro Oliveira |
 
 ## Sumário
 - [1. Introdução](#introducao)
@@ -31,23 +31,23 @@ Partindo do princípio que possuímos contato com a comunidade de estudantes da 
 - Estado: DF
 - Município: Brasilia
 
-**Comportamental** 
+**Comportamental**
 
 - Atitudes - Rotina movimentada, hiperatividade, falta de foco e disciplina.
-- Comportamento de Compra - possui o habito de efetuar compras online, com cartão de crédito. Realizam assinaturas online. ⁴ 
+- Comportamento de Compra - possui o habito de efetuar compras online, com cartão de crédito. Realizam assinaturas online. ⁴
 - Utilização - utilizam primariamente serviços online. Disponibilizam muito tempo em dispositivos móveis com acesso a _internet_.
 
 **Psicográfico**
 
 - Valores - Possuem mais empatia, e atitudes colaborativas. ⁵
-- Opiniões - Abertas a novas opiniões baseadas na experiência do próximo. 
-- Crenças - Confiam menos em instituições tradicionais ⁶. 
+- Opiniões - Abertas a novas opiniões baseadas na experiência do próximo.
+- Crenças - Confiam menos em instituições tradicionais ⁶.
 - Grupos - São pessoas que não se limitam tanto a grupos, entretanto se aproximam de pessoas que possuem interesses em comum sem limitar suas relações.
 
 ### 3 Referência Bibliográfica
 ¹ [Analise o mercado antes de tomar decisões](http://www.sebrae.com.br/sites/PortalSebrae/artigos/analise-o-mercado-antes-de-tomar-decisoes,500d7e0805b1a410VgnVCM1000003b74010aRCRD). SEBRAE. 2019.
 
-² [Média de idade por área do conhecimento](http://g1.globo.com/sp/vale-do-paraiba-regiao/especial-publicitario/quero-bolsa/noticia/2017/02/quero-bolsa-faz-ranking-da-media-de-idade-dos-alunos-de-cada-curso.html). Globo. 2017. 
+² [Média de idade por área do conhecimento](http://g1.globo.com/sp/vale-do-paraiba-regiao/especial-publicitario/quero-bolsa/noticia/2017/02/quero-bolsa-faz-ranking-da-media-de-idade-dos-alunos-de-cada-curso.html). Globo. 2017.
 
 ³ [Dois terços dos universitários das federais têm renda familiar de 1,5 salário mínimo](https://jornalggn.com.br/gestao/dois-tercos-dos-universitarios-das-federais-tem-renda-familiar-de-15-salario-minimo/
 ). Jornal GGN. 2018.

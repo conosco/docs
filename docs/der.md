@@ -1,7 +1,7 @@
 # DER
 | **Data** | **Versão** | **Descrição** | **Autor(es)** |
 |---|---|---|---|
-|11/04/2019 | 0.1 | Adição de DE-R | Ana carolina, Augusto Vilarins, Djorkaeff Alexandre, Guilherme Siqueira, Gustavo Braz, Rodrigo Dadamos,  Vitor Leal |
+|11/04/2019 | 0.1 | Adição de DE-R | Ana Carolina, Augusto Vilarins, Djorkaeff Alexandre, Guilherme Siqueira, Gustavo Braz, Rodrigo Dadamos,  Vitor Leal |
 |12/04/2019 | 0.2 | Adição de Introdução |  Rodrigo Dadamos |
 |14/04/2019 | 0.3 | Adição de diagrama lógico |  Icaro Oliveira, Guilherme Siqueira, Djorkaeff Alexandre, Augusto Vilarins |
 
