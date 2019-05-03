@@ -43,21 +43,10 @@ A documentação está organizada de acordo com as interações da matéria. os 
     <h4> Ícaro Oliveira</h4>
      Desenvolvedor 
 </div>
-<div style="float:left;margin:0 110px 110px 0">
-    <img align="left" width="125" height="125" src="https://avatars3.githubusercontent.com/u/30712408?s=88&v=4">
-    <h4> João Pedro</h4>
-     Desenvolvedor 
-</div>
 
 <div style="float:left;margin:0 110px 110px 0">
     <img align="left" width="125" height="125" src="https://avatars2.githubusercontent.com/u/18116735?s=88&v=4">
     <h4> Mateus Sousa</h4>
-     Desenvolvedor 
-</div>
-
-<div style="float:left;margin:0 110px 110px 0">
-    <img align="left" width="125" height="125" src="https://avatars2.githubusercontent.com/u/17864231?s=96&v=4">
-    <h4> Rodrigo Dadamos</h4>
      Desenvolvedor 
 </div>
 
