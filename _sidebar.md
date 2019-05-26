@@ -32,6 +32,9 @@
   - [Manual de Identidade Visual](/docs/identidade-visual.md)
   - [Quadro de Conhecimento](/docs/quadro-conhecimento.md)
 
+- [Padrões](#)
+  - [GoFs Criacionais](#)
+    - [Factory](/docs/factory.md)
 - [Release](#)
   - [Sprint01](#)
       - [Planejamento](/docs/planejamentoSprint01.md)
