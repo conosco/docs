@@ -17,7 +17,7 @@
     - [DER versão 3](#der-vers%C3%A3o-3)
   - [3. Diagrama Lógico](#3-diagrama-l%C3%B3gico)
     - [Lógico versão 1](#l%C3%B3gico-vers%C3%A3o-1)
-    - [Lógico versão 1](#l%C3%B3gico-vers%C3%A3o-1-1)
+    - [Lógico versão 2](#l%C3%B3gico-vers%C3%A3o-2)
 
 ## 1. Introdução
 
@@ -43,6 +43,6 @@ Diagrama Entidade Relacionamento (DER) é a representação gráfica do modelo c
 
 ![logico-1](../assets/img/banco/der_v2.jpg)
 
-### Lógico versão 1
+### Lógico versão 2
 
 ![logico-1](../assets/img/banco/logico-v2.png)
