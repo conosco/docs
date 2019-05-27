@@ -35,6 +35,8 @@
 - [Padrões](#)
   - [GoFs Criacionais](#)
     - [Factory](/docs/factory.md)
+  - [GoFs Comportamentais](#)
+    - [Command](/docs/command.md)
 - [Release](#)
   - [Sprint01](#)
       - [Planejamento](/docs/planejamentoSprint01.md)
