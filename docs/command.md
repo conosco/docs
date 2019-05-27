@@ -3,6 +3,7 @@
 | **Data**   | **Versão** | **Descrição**               | **Autor(es)**  |
 | ---------- | ---------- | --------------------------- | -------------- |
 | 26/05/2019 | 0.1        | Adição da introdução e Command Pattern no React Native | Guilherme Siqueira, Gustavo Braz, Djorkaeff Alexandre, Ícaro de Oliveira, Augusto Vilarins e Ana Carolina |
+| 26/05/2019 | 0.2        | Adição do diagrama de sequência | Gustavo Braz, Guilherme Siqueira |
 
 ## Introdução
 A motivação deste padrão é reutilizar alguns pedaços de código já utilizados anteriormente, desacoplando o código, cujo é a sua principal função. Existem três papéis no Command Pattern, o *Receiver*, *Command* e o *Executor*.
@@ -103,3 +104,6 @@ export const logIn = (navigation) => (dispatch) => {
   }).catch(({ message }) => Alert.alert(`Facebook Login Error: ${message}`));
 }
 ```
+## Diagrama de Sequência
+
+![diagrama-sequencia](../assets/img/Command/Command-diagramaDeSequencia.png)
