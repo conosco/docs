@@ -40,3 +40,4 @@
 - [Release](#)
   - [Sprint01](#)
       - [Planejamento](/docs/planejamentoSprint01.md)
+      - [Review](/docs/reviewSprint01.md)
