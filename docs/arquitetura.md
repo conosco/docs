@@ -6,6 +6,7 @@
 |31/03/2019 | 0.2 | Adição de Objetivo, Contexto, Contêiners e Componentes | Ícaro Oliveira |
 |04/04/2019 | 0.3 | Adição de Pipeline | Augusto Vilarins, Djorkaeff Alexandre, Guilherme Siqueira, Ícaro Oliveira |
 |16/04/2019 | 0.4 | Colocando documento no template e refatorando seções 1 e 2  | Guilherme Siqueira, Augusto Vilarins, Djorkaeff Alexandre, Ícaro Oliveira |
+|16/04/2019 | 0.5 | Adicionando item 4 e descrevendo Redux  | Guilherme Siqueira, Augusto Vilarins, Djorkaeff Alexandre, Ícaro Oliveira |
 
 ## Sumário
 - [Arquitetura](#arquitetura)
@@ -53,7 +54,7 @@ https://martinfowler.com/bliki/MonolithFirst.html
 <p align = "justify">Este documento detalha as características de arquitetura do software a ser desenvolvido, suas tecnologias e padrões, além dos requisitos do projeto e visão de dados.</p>
 
 ## 2. Representação da Arquitetura
-A arquitetura geral utilizada no Conosco é uma arquitetura Cliente-Servidor, com n-camadas. Na API,foi utilizada arquitetura de monolíto. Uma vez que o modelo de negócio ainda não estava completamente elucidado, então seguiu-se a orientação [Monolith First](https://martinfowler.com/bliki/MonolithFirst.html), apresentada Martin Fowler. 
+A arquitetura geral utilizada no Conosco é uma arquitetura Cliente-Servidor, junto com o modelo N-Camadas. Na API, utiliza-se arquitetura de monolíto, uma vez que o modelo de negócio ainda não estava completamente elucidado, então seguiu-se a orientação [Monolith First](https://martinfowler.com/bliki/MonolithFirst.html), apresentada Martin Fowler. 
 
 Já no APP, utiliza-se uma arquitetura orientada a componentes, onde o código escrito em JavaScript é compilado tanto para dispositivos iOS tanto para dispositivos Android. 
 
@@ -76,6 +77,10 @@ A arquitetura segue um modelo de separação de responsabilidades num "alto nív
 #### 2.3.1 Aplicativo *mobile* híbrido utilizando React Native
 
 O React Native é uma biblioteca moderna que permite acessar a interface e os recursos nativos dos smartphones utilizando JavaScript. Ele permite produzir aplicativos tanto para iOS quanto Android utilizando apenas uma *codebase*. 
+
+Para facilitar no processo de desenvolvimento do aplicativo, optou-se por utilizar o [Expo](https://expo.io/), que é um conjunto de ferramentas gratuíto e de código aberto que auxiliam no processo de desenvolvimento de aplicativos, permitindo fácil acesso às API’s nativas do dispositivo iOS ou Android sem necessitar instalar qualquer dependência ou alterar código nativo.
+
+Também optou-se por utilizar o (Redux)[https://conosco.github.io/docs/#/docs/arquitetura-redux], que é um framework JavaScript que funciona como um contêiner de estados, pois há diversos componentes que há a necessidade de modificação de estados de forma relativa. 
 
 #### 2.3.2 API RESTful utilizando NestJS e TypeScript
 
@@ -100,15 +105,44 @@ A camada de persistência de dados será feita utilizando o modelo relacional e 
 
 ## 3. Metas e Restrições de Arquitetura
 ### 3.1 Metas
+O sistema deve conseguir manter os dados cadastrais de um usuário seguros, além de ter a capacidadde de renderização dos componentes das telas do APP em dispositivos de diferentes resoluções e de ambos os sistemas operacionais mobile propostos, Android e iOS.
 
 ### 3.2 Restrições
+O aplicativo será desenvolvido utilizando o [Expo](https://expo.io/), portanto, segundo a documentação do mesmo, o aplicativo terá suporte apenas para dispositivos que rodem versões igual ou superior ao Android 5 ou iOS 10.
 
 ## 4. Visão dos Casos de Uso
+Os casos de uso estão listados abaixo, sendo que os casos de uso destacados em negrito são mais significativos para a arquitetura. 
+
+* **Logar no Sistema**
+  * **Cadastrar no Sistema**
+  * **Autenticar Usuário**
+* Editar Perfil
+* **Manter Hábitos**
+  * Criar hábito
+  * Editar hábitos
+  * Excluir hábitos
+* Vincular hábitos
+  * Criar hábitos públicos
+* Favoritar hábitos
+* Favoritar hábitos
+* Comentar hábitos
+* Participar da Gamificação
+  * **Receber Medalhas**
+    * Criar Medalhas
+  * **Participar de Missões**
+    * Criar Missões
+
+Os seguintes diagramas descrevem os casos de uso no sistema. 
 
 ### 4.1 Diagrama de Casos de Uso
+#### Visão Geral de Casos de Uso
+![caso_de_uso_geral](https://conosco.github.io/docs/assets/img/arq/diagrama-casos-de-uso2.png)
 
 ### 4.2 Atores de Casos de Uso
-
-### 4.3 Descrições de Casos de Uso
+|**Ator**|**Descrição**
+:-:|:-:
+|**Usuário**|Pessoas que buscam ajudar outras pessoas e serem ajudadas.
 
 ## 5. Visão Lógica
+### 5.1 Visão Geral
+As principais classes do ponto de vista da arquitetura do software e as implementações das funcionalidades são divididas pacotes que representam as camadas da aplicação. A divisão em pacotes está representada no diagrama abaixo.
