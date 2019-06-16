@@ -47,3 +47,6 @@
   - [Sprint03](#)
       - [Planejamento](/docs/planejamentoSprint03.md)
       - [Review](/docs/reviewSprint03.md)
+  - [Sprint04](#)
+      - [Planejamento](/docs/planejamentoSprint04.md)
+      - [Review](/docs/reviewSprint04.md)
