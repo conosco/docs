@@ -26,7 +26,7 @@
 
 ### 1.1 Finalidade
 
-> "Software architecture is those decisions which are both important and hard to change." - [Martin Fowler](https://www.youtube.com/watch?v=DngAZyWMGR0), 2015 
+> "Software architecture is those decisions which are both important and hard to change." - [Martin Fowler](https://www.youtube.com/watch?v=DngAZyWMGR0), 2015
 
 
 Este documento tem como objetivo especificar, de uma maneira amigável, as decisões relevantes à arquitetura do software. Desde as escolhas de alto nível, decidindo quais componentes iríamos utilizar, passando pelas escolhas de tecnologias e chegando a nível de código.
@@ -40,7 +40,7 @@ Abreviação|Significado
 :-:|:-:
 |**C4**| Contexo, Contêiners, Componentes e Código
 |**API**| Application Programming Interface
-|**APP**| Abreviação para Application 
+|**APP**| Abreviação para Application
 
 ### 1.4 Referências
 <p align = "justify"> Este documento faz referência aos seguintes links e  documentos: </p>
@@ -54,9 +54,9 @@ https://martinfowler.com/bliki/MonolithFirst.html
 <p align = "justify">Este documento detalha as características de arquitetura do software a ser desenvolvido, suas tecnologias e padrões, além dos requisitos do projeto e visão de dados.</p>
 
 ## 2. Representação da Arquitetura
-A arquitetura geral utilizada no Conosco é uma arquitetura Cliente-Servidor, junto com o modelo N-Camadas. Na API, utiliza-se arquitetura de monolíto, uma vez que o modelo de negócio ainda não estava completamente elucidado, então seguiu-se a orientação [Monolith First](https://martinfowler.com/bliki/MonolithFirst.html), apresentada Martin Fowler. 
+A arquitetura geral utilizada no Conosco é uma arquitetura Cliente-Servidor, junto com o modelo N-Camadas. Na API, utiliza-se arquitetura de monolíto, uma vez que o modelo de negócio ainda não estava completamente elucidado, então seguiu-se a orientação [Monolith First](https://martinfowler.com/bliki/MonolithFirst.html), apresentada Martin Fowler.
 
-Já no APP, utiliza-se uma arquitetura orientada a componentes, onde o código escrito em JavaScript é compilado tanto para dispositivos iOS tanto para dispositivos Android. 
+Já no APP, utiliza-se uma arquitetura orientada a componentes, onde o código escrito em JavaScript é compilado tanto para dispositivos iOS tanto para dispositivos Android.
 
 ### 2.1 Contexto
 O diagrama de contexto foi desenvolvido com o objetivo de apresentar um panorama geral do Conosco:
@@ -76,19 +76,19 @@ A arquitetura segue um modelo de separação de responsabilidades num "alto nív
 
 #### 2.3.1 Aplicativo *mobile* híbrido utilizando React Native
 
-O React Native é uma biblioteca moderna que permite acessar a interface e os recursos nativos dos smartphones utilizando JavaScript. Ele permite produzir aplicativos tanto para iOS quanto Android utilizando apenas uma *codebase*. 
+O React Native é uma biblioteca moderna que permite acessar a interface e os recursos nativos dos smartphones utilizando JavaScript. Ele permite produzir aplicativos tanto para iOS quanto Android utilizando apenas uma *codebase*.
 
 Para facilitar no processo de desenvolvimento do aplicativo, optou-se por utilizar o [Expo](https://expo.io/), que é um conjunto de ferramentas gratuíto e de código aberto que auxiliam no processo de desenvolvimento de aplicativos, permitindo fácil acesso às API’s nativas do dispositivo iOS ou Android sem necessitar instalar qualquer dependência ou alterar código nativo.
 
-Também optou-se por utilizar o (Redux)[https://conosco.github.io/docs/#/docs/arquitetura-redux], que é um framework JavaScript que funciona como um contêiner de estados, pois há diversos componentes que há a necessidade de modificação de estados de forma relativa. 
+Também optou-se por utilizar o (Redux)[https://conosco.github.io/docs/#/docs/arquitetura-redux], que é um framework JavaScript que funciona como um contêiner de estados, pois há diversos componentes que há a necessidade de modificação de estados de forma relativa.
 
 #### 2.3.2 API RESTful utilizando NestJS e TypeScript
 
 > "O Representational State Transfer (REST) ignora os detalhes da implementação de componente e a sintaxe de protocolo com o objetivo de focar nos papéis dos componentes, nas restrições sobre sua interação com outros componentes e na sua interpretação de elementos de dados significantes." - [Wikipedia](https://pt.wikipedia.org/wiki/REST)
 
-A decisão de utilizar um web service no estilo arquitetural REST foi feita com base na possibilidade de interoperabilidade entre sistemas que é fornecida por ele. 
+A decisão de utilizar um web service no estilo arquitetural REST foi feita com base na possibilidade de interoperabilidade entre sistemas que é fornecida por ele.
 
-Uma vez que utilizaremos um aplicativo mobile como camada de apresentação, é possível realizar através do REST a comunicação entre ele e a camada serviço. 
+Uma vez que utilizaremos um aplicativo mobile como camada de apresentação, é possível realizar através do REST a comunicação entre ele e a camada serviço.
 
 Para essa camada a linguagem escolhida é o **[TypeScript](https://www.typescriptlang.org/)**, um superset do JavaScript.
 
@@ -100,7 +100,7 @@ Foi escolhido o **[NestJS](http://nestjs.com)** como **framework** para a constr
 
 A camada de persistência de dados será feita utilizando o modelo relacional e a tecnologia escolhida foi o [PostgreSQL](https://www.postgresql.org/).
 
-#### 2.3.4 Pipeline 
+#### 2.3.4 Pipeline
 ![pipeline](https://cdn.discordapp.com/attachments/557709025265975327/562049330308055040/pipeline_conosco.png)
 
 ## 3. Metas e Restrições de Arquitetura
@@ -111,7 +111,7 @@ O sistema deve conseguir manter os dados cadastrais de um usuário seguros, alé
 O aplicativo será desenvolvido utilizando o [Expo](https://expo.io/), portanto, segundo a documentação do mesmo, o aplicativo terá suporte apenas para dispositivos que rodem versões igual ou superior ao Android 5 ou iOS 10.
 
 ## 4. Visão dos Casos de Uso
-Os casos de uso estão listados abaixo, sendo que os casos de uso destacados em negrito são mais significativos para a arquitetura. 
+Os casos de uso estão listados abaixo, sendo que os casos de uso destacados em negrito são mais significativos para a arquitetura.
 
 * **Logar no Sistema**
   * **Cadastrar no Sistema**
@@ -132,7 +132,7 @@ Os casos de uso estão listados abaixo, sendo que os casos de uso destacados em 
   * **Participar de Missões**
     * Criar Missões
 
-Os seguintes diagramas descrevem os casos de uso no sistema. 
+Os seguintes diagramas descrevem os casos de uso no sistema.
 
 ### 4.1 Diagrama de Casos de Uso
 #### Visão Geral de Casos de Uso
@@ -146,3 +146,13 @@ Os seguintes diagramas descrevem os casos de uso no sistema.
 ## 5. Visão Lógica
 ### 5.1 Visão Geral
 As principais classes do ponto de vista da arquitetura do software e as implementações das funcionalidades são divididas pacotes que representam as camadas da aplicação. A divisão em pacotes está representada no diagrama abaixo.
+
+### 5.2 Pacotes de design significativos do ponto de vista arquitetural
+
+#### Diagrama de Pacotes
+
+![Diagrama de pacotes](https://i.imgur.com/efyfADJ.png)
+
+#### Diagrama de classes
+
+![Diagramas de classes](https://i.imgur.com/uboO0oA.png)
