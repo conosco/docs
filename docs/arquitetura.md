@@ -7,6 +7,7 @@
 |04/04/2019 | 0.3 | Adição de Pipeline | Augusto Vilarins, Djorkaeff Alexandre, Guilherme Siqueira, Ícaro Oliveira |
 |16/04/2019 | 0.4 | Colocando documento no template e refatorando seções 1 e 2  | Guilherme Siqueira, Augusto Vilarins, Djorkaeff Alexandre, Ícaro Oliveira |
 |16/04/2019 | 0.5 | Adicionando item 4 e descrevendo Redux  | Guilherme Siqueira, Augusto Vilarins, Djorkaeff Alexandre, Ícaro Oliveira |
+|16/04/2019 | 0.6 | Adicionando explicação da arquitetura cliente-servidor  | Guilherme Siqueira, Augusto Vilarins, Djorkaeff Alexandre, Ícaro Oliveira |
 
 ## Sumário
 - [Arquitetura](#arquitetura)
@@ -41,6 +42,7 @@ Abreviação|Significado
 |**C4**| Contexo, Contêiners, Componentes e Código
 |**API**| Application Programming Interface
 |**APP**| Abreviação para Application
+|**REST**|Representational State Transfer
 
 ### 1.4 Referências
 <p align = "justify"> Este documento faz referência aos seguintes links e  documentos: </p>
@@ -73,32 +75,6 @@ Antes de formular o diagrama, porém, foi preciso escolher as arquiteturas,lingu
 ### 2.3 Componentes
 
 A arquitetura segue um modelo de separação de responsabilidades num "alto nível", dividindo a camada de apresentação (app mobile) da camada de serviço (REST API) e de persistência (Banco de Dados).
-
-#### 2.3.1 Aplicativo *mobile* híbrido utilizando React Native
-
-O React Native é uma biblioteca moderna que permite acessar a interface e os recursos nativos dos smartphones utilizando JavaScript. Ele permite produzir aplicativos tanto para iOS quanto Android utilizando apenas uma *codebase*.
-
-Para facilitar no processo de desenvolvimento do aplicativo, optou-se por utilizar o [Expo](https://expo.io/), que é um conjunto de ferramentas gratuíto e de código aberto que auxiliam no processo de desenvolvimento de aplicativos, permitindo fácil acesso às API’s nativas do dispositivo iOS ou Android sem necessitar instalar qualquer dependência ou alterar código nativo.
-
-Também optou-se por utilizar o (Redux)[https://conosco.github.io/docs/#/docs/arquitetura-redux], que é um framework JavaScript que funciona como um contêiner de estados, pois há diversos componentes que há a necessidade de modificação de estados de forma relativa.
-
-#### 2.3.2 API RESTful utilizando NestJS e TypeScript
-
-> "O Representational State Transfer (REST) ignora os detalhes da implementação de componente e a sintaxe de protocolo com o objetivo de focar nos papéis dos componentes, nas restrições sobre sua interação com outros componentes e na sua interpretação de elementos de dados significantes." - [Wikipedia](https://pt.wikipedia.org/wiki/REST)
-
-A decisão de utilizar um web service no estilo arquitetural REST foi feita com base na possibilidade de interoperabilidade entre sistemas que é fornecida por ele.
-
-Uma vez que utilizaremos um aplicativo mobile como camada de apresentação, é possível realizar através do REST a comunicação entre ele e a camada serviço.
-
-Para essa camada a linguagem escolhida é o **[TypeScript](https://www.typescriptlang.org/)**, um superset do JavaScript.
-
-O TypeScript adiciona novas funcionalidades ao JS, permitindo assim: a escrita de scripts com a utilização de tipagem estática, orientação a objetos (permitindo a implementação de padrões de forma simples) e a escrita de código com uma sintaxe de fácil compreensão.
-
-Foi escolhido o **[NestJS](http://nestjs.com)** como **framework** para a construção da **API**. Ele foi construído inspirado no framework AngularJS, mas para backend. Segundo seu criador, o NestJS se propõe a resolver um dos maiores problemas do JavaScript moderno: **arquitetura**.
-
-#### 2.3.3 Banco de dados utilizando PostgreSQL
-
-A camada de persistência de dados será feita utilizando o modelo relacional e a tecnologia escolhida foi o [PostgreSQL](https://www.postgresql.org/).
 
 #### 2.3.4 Pipeline
 ![pipeline](https://cdn.discordapp.com/attachments/557709025265975327/562049330308055040/pipeline_conosco.png)
@@ -156,3 +132,38 @@ As principais classes do ponto de vista da arquitetura do software e as implemen
 #### Diagrama de classes
 
 ![Diagramas de classes](https://i.imgur.com/uboO0oA.png)
+
+## 6. Visão de Implementação
+### 6.1 Visão Geral
+A arquitetura do Conosco, como falado anteriormente, segue o modelo de uma arquitetura cliente-servidor com múltiplas camadas. 
+
+### 6.2 Cliente-Servidor
+Uma arquitetura cliente-servidor separa o cliente do servidor, sendo interligados entre si utilizando uma rede de computadores. No Conosco, separou-se em dois repositórios, sendo um para o cliente e outro para o servidor, sendo a comunicação entre eles feita através de requisições HTTP utilizando o padrão arquitetural REST no servidor. 
+
+#### 6.3.1 API RESTful utilizando NestJS e TypeScript
+
+> "O Representational State Transfer (REST) ignora os detalhes da implementação de componente e a sintaxe de protocolo com o objetivo de focar nos papéis dos componentes, nas restrições sobre sua interação com outros componentes e na sua interpretação de elementos de dados significantes." - [Wikipedia](https://pt.wikipedia.org/wiki/REST)
+
+A decisão de utilizar um web service no estilo arquitetural REST foi feita com base na possibilidade de interoperabilidade entre sistemas que é fornecida por ele.
+
+Uma vez que utilizaremos um aplicativo mobile como camada de apresentação, é possível realizar através do REST a comunicação entre ele e a camada serviço.
+
+Para essa camada a linguagem escolhida é o **[TypeScript](https://www.typescriptlang.org/)**, um superset do JavaScript.
+
+O TypeScript adiciona novas funcionalidades ao JS, permitindo assim: a escrita de scripts com a utilização de tipagem estática, orientação a objetos (permitindo a implementação de padrões de forma simples) e a escrita de código com uma sintaxe de fácil compreensão.
+
+Foi escolhido o **[NestJS](http://nestjs.com)** como **framework** para a construção da **API**. Ele foi construído inspirado no framework AngularJS, mas para backend. Segundo seu criador, o NestJS se propõe a resolver um dos maiores problemas do JavaScript moderno: **arquitetura**.
+
+#### 6.3.2 Banco de dados utilizando PostgreSQL
+
+A camada de persistência de dados será feita utilizando o modelo relacional e a tecnologia escolhida foi o [PostgreSQL](https://www.postgresql.org/).
+
+#### 6.3.3 Aplicativo *mobile* híbrido utilizando React Native
+
+O React Native é uma biblioteca moderna que permite acessar a interface e os recursos nativos dos smartphones utilizando JavaScript. Ele permite produzir aplicativos tanto para iOS quanto Android utilizando apenas uma *codebase*.
+
+Para facilitar no processo de desenvolvimento do aplicativo, optou-se por utilizar o [Expo](https://expo.io/), que é um conjunto de ferramentas gratuíto e de código aberto que auxiliam no processo de desenvolvimento de aplicativos, permitindo fácil acesso às API’s nativas do dispositivo iOS ou Android sem necessitar instalar qualquer dependência ou alterar código nativo.
+
+Também optou-se por utilizar o (Redux)[https://conosco.github.io/docs/#/docs/arquitetura-redux], que é um framework JavaScript que funciona como um contêiner de estados, pois há diversos componentes que há a necessidade de modificação de estados de forma relativa.
+
+### 6.4 N-Camadas
