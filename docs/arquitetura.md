@@ -174,3 +174,33 @@ Dentro de cada modulo, existem os componentes destes.
 #### 5.3 Diagrama de Classes
 
 ![Diagramas de classes](https://i.imgur.com/uboO0oA.png)
+
+## Camadas de implementação
+
+De acordo com a arquitetura C4, a implementação do software é feita em N camadas. Esse estilo arquitetural é usado para modelar a interface de subsistemas e organizar o sistema em um conjunto de camadas onde cada uma delas fornece um serviço diferente. 
+
+Uma aplicação desenvolvida neste modelo apresenta várias vantagens . Dentre elas pode-se destacar a modularização, a facilidade de redistribuição, os clientes leves, a economia de licenças de acesso ao banco de dados, a economia de conexões no servidor, a escalabilidade e a independência de localização, de linguagem de programação e de sistema gerenciador de banco de dados
+
+Abaixo, seque uma imagem do diagrama de N camadas, que traz uma representação visual do estilo arquitetural ultilizado na aplicação:
+
+![Diagrama de N camadas ](imgur.com/I12fa3)
+
+### Camada de aplicação
+
+A camada de aplicação serve para fornecer protocolos comuns viabilizando a interação entre a máquina destinatária e o usuário da aplicação. Ela é comumente associada ao usuário e é  responsável por prover serviços para a aplicação de modo a separar a existência de comunicação em rede entre processos de diferentes computadores.
+
+### Camada de apresentação
+
+A camada de apresentação é a camda responsável por estruturar o dado recebido em formato adequado para a transmissão, usando um protocolo base. Ela tira o peso da camada de aplicação em questões relacionadas a diferenças  na representação de dados ao usuário.
+
+Esta camada também é responsável pela compressão e criptografia dos dados da aplicação; 
+
+### Camada de transporte
+
+A camda de transporte é a camada responssável pela segmentação das informações da aplicação em pacotes no intuito de garantir que as informações sejam realmente entregues e que os módulos da aplicação consigam se comunicar sem falhas na comunicação ou perda de pacotes. 
+
+ A camada de transporte reúne protocolos de transporte end-to-end entre máquinas, isto é, uma entidade que utilize os protocolos desta camada só se comunica com a sua entidade destino, sem comunicação com máquinas intermediárias na rede, como pode ocorrer com as camadas inferiores.Dois dos principais protocolos desta camada são o UDP e o TCP
+
+### Camada de persistência
+
+Essa camada é responsável por salvar os objetos necessários no banco de dados. É essa camada que trata da parte de dados e da persistência desses dados no nosso banco de dados . 
