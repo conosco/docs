@@ -1,9 +1,9 @@
-# Review da sprint 04
-**Número da Sprint:** 4
+# Review da sprint 06
+**Número da Sprint:** 6
 
-**Data de Início:** 21/05/2019
+**Data de Início:** 06/06/2019
 
-**Data de Término:** 28/05/2019
+**Data de Término:** 13/06/2019
 
 **Duração:** Uma semana
 
@@ -11,7 +11,7 @@
 
 **Critério para pontuação:** Planning Poker
 
-**Quantidades de histórias adicionadas:** 2
+**Quantidades de histórias adicionadas:** 0
 
 ----
 
@@ -19,7 +19,7 @@
 
 **Scrum master:** Augusto Vilarins
 
-**Product Owner:** Guilherme Siqueira
+**Product Owner:** Ana Carolina Carvalho
 
 **Time:** Equipe de desenho
 
@@ -30,7 +30,7 @@
 
 |Issue|Nome|Status|
 |-----|----|-----|
-|#43|[Criar entidades e Migrations](https://github.com/conosco/conosco-api/issues/43)| :heavy_check_mark: |
+|#43|[Eu como desenvolvedor desejo criar uma interface para o dashboard](https://github.com/conosco/conosco-api/issues/46)| :heavy_check_mark: |
 |#34|[Cadastrar novo habito no sistema ](https://github.com/conosco/conosco-api/issues/34)| :x: |
 |#33|[Atualizar dados cadastrais)](https://github.com/conosco/conosco-api/issues/33)| :x: |
 
@@ -41,8 +41,6 @@
 
 |Pontos positivos|Pontos Negativos|Ações para melhoria|
 |------|------------|----------|
-|Escopo conhecido | Foco das reuniões | Dinâmicas para espeficiação do produto|
-|Entrosamento da equipe | Reunião no sábado de manhã | Mudança do dia da reunião geral |
 |Horizontalidade de conhecimento |Sem cliente, visão de produto gerada pela propria equipe | Foco da equipe |
 
 ## Evolução do conhecimento
@@ -51,13 +49,13 @@
 
 ## Velocity
 
-![Burndown](https://i.imgur.com/dJo0CrS.png)
+![Burndown]()
 
 ** Pontos planejados ** : 13
 
-** Pontos executados ** : 5
+** Pontos executados ** : 8
 
-** Velocity ** : 5
+** Velocity ** : 8
 
 ----
 
@@ -69,6 +67,4 @@
 
 ## Análise do Scrum master
 
-Senti que poucos membros do grupo participaram ativamente do projeto. As dailies dessa sprint foram esvaziadas e não foram essencialmente produtivas.
-
-Por causa das dinâmicas dessa semana , os esforços do time foram um pouco reduzidos em relação a código e focamos mais nas dinâmicas.
+Senti que produzimos mais que na sprint passada e conseguimos entregar uma tarefa grande. O entrosamento melhorou consideravelmente. Os membros se encontram mais ativos. Melhoramos alguns documentos também, baseado nas aulas. Estamos nos recuperando em relação a sprint passada. Tiramos algo positivo da falha, nossas dailies foram boas e mais regulares, estamos mais focados e acredito que na próxima sprint será melhor. 
