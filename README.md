@@ -1,11 +1,11 @@
 
-# bem vindo
+# Bem Vindo
 
 > Esta página é destinada à toda a documentação do projeto. 
 
-## organização
+## Organização
 
-A documentação está organizada de acordo com as interações da matéria. os documentos estão agrupados dentro das respectivas seções na página.
+A documentação está organizada de acordo com o desenvolvimento da disciplina. Os documentos estão agrupados dentro das respectivas seções nas páginas.
 
 # Membros
 
