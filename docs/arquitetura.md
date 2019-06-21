@@ -184,7 +184,7 @@ Uma aplicação desenvolvida neste modelo apresenta várias vantagens . Dentre e
 
 Abaixo, seque uma imagem do diagrama de N camadas, que traz uma representação visual do estilo arquitetural ultilizado na aplicação:
 
-![Diagrama de N camadas ](https://imgur.com/2pMBlOF)
+![Diagrama de N camadas](https://i.imgur.com/2pMBlOF.png)
 
 ### Camada de aplicação
 
