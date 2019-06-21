@@ -9,6 +9,7 @@
 |16/06/2019 | 0.5 | Adicionando item 4 e descrevendo Redux  | Guilherme Siqueira, Augusto Vilarins, Djorkaeff Alexandre, Ícaro Oliveira |
 |16/06/2019 | 0.6 | Adicionando explicação da arquitetura cliente-servidor  | Guilherme Siqueira, Augusto Vilarins, Djorkaeff Alexandre, Ícaro Oliveira |
 |16/06/2019 | 0.7 | Organizando itens e adicionando diagramas  | Guilherme Siqueira, Augusto Vilarins, Djorkaeff Alexandre, Ícaro Oliveira |
+|20/06/2019 | 0.8 | Adicionando Arquitetural Geral  | Mateus Augusto, Vitor Leal, Gustavo Braz |
 
 ## Sumário
 - [Arquitetura](#arquitetura)
@@ -183,7 +184,7 @@ Uma aplicação desenvolvida neste modelo apresenta várias vantagens . Dentre e
 
 Abaixo, seque uma imagem do diagrama de N camadas, que traz uma representação visual do estilo arquitetural ultilizado na aplicação:
 
-![Diagrama de N camadas ](imgur.com/I12fa3)
+![Diagrama de N camadas ](https://imgur.com/2pMBlOF)
 
 ### Camada de aplicação
 
