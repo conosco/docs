@@ -71,4 +71,4 @@
 
 Identifiquei dificuldade de alguns membros em finalizar as US da sprint. Dois membros da equipe trancaram a disciplina, o que exigiu uma restruturação e realocação das atividades durante a sprint.
 
-Em razção disso, a motivação da equipe diminuiu perceptivelmente.
+Em razão disso, a motivação da equipe diminuiu perceptivelmente.

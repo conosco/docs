@@ -1,9 +1,9 @@
-# Review da sprint 04
-**Número da Sprint:** 4
+# Review da sprint 05
+**Número da Sprint:** 5
 
-**Data de Início:** 21/05/2019
+**Data de Início:** 29/05/2019
 
-**Data de Término:** 28/05/2019
+**Data de Término:** 05/06/2019
 
 **Duração:** Uma semana
 
@@ -11,7 +11,7 @@
 
 **Critério para pontuação:** Planning Poker
 
-**Quantidades de histórias adicionadas:** 2
+**Quantidades de histórias adicionadas:** 1
 
 ----
 
@@ -19,7 +19,7 @@
 
 **Scrum master:** Augusto Vilarins
 
-**Product Owner:** Guilherme Siqueira
+**Product Owner:** Ana Carolina Carvalho
 
 **Time:** Equipe de desenho
 
@@ -30,7 +30,7 @@
 
 |Issue|Nome|Status|
 |-----|----|-----|
-|#43|[Criar entidades e Migrations](https://github.com/conosco/conosco-api/issues/43)| :heavy_check_mark: |
+|#43|[Eu como desenvolvedor desejo criar uma interface para o dashboard](https://github.com/conosco/conosco-api/issues/46)| :x: |
 |#34|[Cadastrar novo habito no sistema ](https://github.com/conosco/conosco-api/issues/34)| :x: |
 |#33|[Atualizar dados cadastrais)](https://github.com/conosco/conosco-api/issues/33)| :x: |
 
@@ -51,17 +51,19 @@
 
 ## Velocity
 
-![Burndown](https://i.imgur.com/dJo0CrS.png)
+![Burndown]()
 
 ** Pontos planejados ** : 13
 
-** Pontos executados ** : 5
+** Pontos executados ** : 0
 
-** Velocity ** : 5
+** Velocity ** : 0
 
 ----
 
 ## Dividas técnicas
+
+|#46|[Eu como desenvolvedor desejo criar uma interface para o dashboard](https://github.com/conosco/conosco-api/issues/46)
 
 |#34|[Cadastrar novo habito no sistema ](https://github.com/conosco/conosco-api/issues/34)
 
@@ -69,6 +71,4 @@
 
 ## Análise do Scrum master
 
-Senti que poucos membros do grupo participaram ativamente do projeto. As dailies dessa sprint foram esvaziadas e não foram essencialmente produtivas.
-
-Por causa das dinâmicas dessa semana , os esforços do time foram um pouco reduzidos em relação a código e focamos mais nas dinâmicas.
+Senti que foi a sprint mais complicada até o momento. Todos os membros estiveram envolvidos com outros projetos, apesar de ter sido uma sprint improdutiva, ainda podemos nos recuperar. Durante as dailies os membros expressavam que não estavam conseguindo dispor de tempo e atenção, por isso, nada proodutivas. Para que isso não ocorra novamente, estamos pensando em dinâmicas para envolver o time e voltarmos a produzir. Tivemos um alinhamento ao final da sprint, dada a improdutividade e acredito que vamos melhorar para a próxima.
