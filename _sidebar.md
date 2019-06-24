@@ -38,7 +38,7 @@
     - [Factory](/docs/factory.md)
   - [GoFs Comportamentais](#)
     - [Command](/docs/command.md)
-    
+
 - [Release](#)
   - [Sprint01](#)
       - [Planejamento](/docs/planejamentoSprint01.md)
@@ -61,3 +61,6 @@
   - [Sprint07](#)
       - [Planejamento](/docs/planejamentoSprint07.md)
       - [Review](/docs/reviewSprint07.md)
+  - [Sprint08](#)
+      - [Planejamento](/docs/planejamentoSprint08.md)
+      - [Review](/docs/reviewSprint08.md)
