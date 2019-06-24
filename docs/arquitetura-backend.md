@@ -5,6 +5,7 @@
 | **Data** | **Versão** | **Descrição** | **Autor(es)** |
 |---|---|---|---|
 |23/06/2019 | 0.1 | Adição de Padrões | Ícaro Oliveira, Guilherme Siqueira e Gustavo Braz |
+|23/06/2019 | 0.2 | Adição de DTO, Pipes and Filters | Ícaro Oliveira, Guilherme Siqueira e Gustavo Braz |
 
 ## 1. Introdução
 Este documento apresenta os padrões de projeto utilizados no backend. A estrutura dos padrões é segue o seguinte modelo: breve descrição do padrão, motivação e trecho de código como exemplo. 
@@ -87,15 +88,41 @@ Na `GroupController`, que serve apenas como uma [fachada](#34-Facade), ela receb
 
 ![](../assets/img/backend-arquitetura/dto_group_service.png)
 
-Finalmente, na `TopicService` é persistido um tópico no banco de dados.
+Finalmente, na `TopicService`, o objeto é persistido no banco de dados.
 
 ![](../assets/img/backend-arquitetura/dto_topic_service.png)
 
 #### 2.4 Pipes and Filters
 #### 2.4.1 Descrição
 
+Ele consiste em qualquer número de componentes (filtros) que transformam ou filtram dados, antes de transmiti-los via conectores (tubos) para outros componentes. Os filtros estão todos funcionando ao mesmo tempo.
+
+O **filtro** transforma ou filtra os dados que recebe através dos tubos com os quais está conectado. Um filtro pode ter qualquer número de tubos de entrada e qualquer número de tubos de saída.
+
+O **pipe** é o conector que passa os dados de um filtro para o próximo. É um fluxo direcional de dados.
+
 #### 2.4.2 Motivação
+No projeto, foram utilizados para três finalidades específicas: um *pipe* pra validação, um *filter* para respostas com sucesso e um *filter* para exceções.
+
 #### 2.4.3 Exemplo
+
+No *pipe* de validação: ele avalia os dados de entrada e, se forem válidos, simplesmente passa-os inalterados; caso contrário, lanca uma exceção quando os dados estiverem incorretos.
+
+![](../assets/img/backend-arquitetura/pf_validation_pipe.png)
+
+
+No Nest, os *pipes* são executados dentro da zona de exceções. Isso significa que, quando um *pipe* lança uma exceção, ele é tratado pela camada de exceções (*filtro* de exceções).
+
+![](../assets/img/backend-arquitetura/pf_exception_filter.png)
+
+
+Quando uma exceção acontece, ela é lançada para o filtro de exceções e é enviada uma resposta para o cliente, interrompendo qualquer execução subsequente.
+
+![](../assets/img/backend-arquitetura/pf_response_filter.png)
+
+Esses filtros e tubos são instanciados na criação (*bootstrap*) do server, injetados no [Singleton](#31-Singleton) que coordena toda a instância da aplicação.
+
+![](../assets/img/backend-arquitetura/pf_main.png)
 
 ## 3. Padrões GOF
 
