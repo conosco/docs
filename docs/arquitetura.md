@@ -53,6 +53,7 @@
 |16/06/2019 | 0.7 | Organizando itens e adicionando diagramas  | Guilherme Siqueira, Augusto Vilarins, Djorkaeff Alexandre, Ícaro Oliveira |
 |20/06/2019 | 0.8 | Adicionando Arquitetural Geral  | Mateus Augusto, Vitor Leal, Gustavo Braz |
 |20/06/2019 | 0.8.1 | Corrigindo Sumário  | Ícaro Oliveira |
+|20/06/2019 | 0.9 | Refatorando n-camadas | Guilherme Siqueira, Ícaro de Oliveira, Mateus Augusto, Vitor Leal, Gustavo Braz |
 
 ## 1. Introdução
 
@@ -198,24 +199,24 @@ Uma aplicação desenvolvida neste modelo apresenta várias vantagens . Dentre e
 
 Abaixo, seque uma imagem do diagrama de N camadas, que traz uma representação visual do estilo arquitetural ultilizado na aplicação:
 
+### V1
 ![Diagrama de N camadas](https://i.imgur.com/2pMBlOF.png)
 
-### 7.1 Camada de aplicação
+### V2
+![Diagrama N-Camadas](https://i.imgur.com/8TvYij3.png)
 
-A camada de aplicação serve para fornecer protocolos comuns viabilizando a interação entre a máquina destinatária e o usuário da aplicação. Ela é comumente associada ao usuário e é  responsável por prover serviços para a aplicação de modo a separar a existência de comunicação em rede entre processos de diferentes computadores.
+### 7.1 Camada de Apresentação
 
-### 7.2 Camada de apresentação
+A camada de apresentação é a camada responsável por estruturar o dado recebido em formato adequado para a transmissão, usando um protocolo base. Ela tira o peso da camada de aplicação em questões relacionadas a diferenças  na representação de dados ao usuário.
 
-A camada de apresentação é a camda responsável por estruturar o dado recebido em formato adequado para a transmissão, usando um protocolo base. Ela tira o peso da camada de aplicação em questões relacionadas a diferenças  na representação de dados ao usuário.
+Nesta camada, o código JavaScript do React Native é transformado em aplicativos nativos para iOS e Android.
 
-Esta camada também é responsável pela compressão e criptografia dos dados da aplicação; 
+### 7.2 Camada de JSCore Virtual Machine
+É onde o código JavaScript roda. É uma engine JavaScript open source originalmente construída para WebKit. No caso do iOS, o React Native usa o JavaScriptCore dado pela plataforma iOS, introduzido no iOS 7.
 
-### 7.3 Camada de transporte
-
-A camda de transporte é a camada responssável pela segmentação das informações da aplicação em pacotes no intuito de garantir que as informações sejam realmente entregues e que os módulos da aplicação consigam se comunicar sem falhas na comunicação ou perda de pacotes. 
-
- A camada de transporte reúne protocolos de transporte end-to-end entre máquinas, isto é, uma entidade que utilize os protocolos desta camada só se comunica com a sua entidade destino, sem comunicação com máquinas intermediárias na rede, como pode ocorrer com as camadas inferiores.Dois dos principais protocolos desta camada são o UDP e o TCP
+### 7.3 Camada de Aplicação
+É a camada de negócios, onde toda a lógica do servidor vai estar.
 
 ### 7.4 Camada de persistência
 
-Essa camada é responsável por salvar os objetos necessários no banco de dados. É essa camada que trata da parte de dados e da persistência desses dados no nosso banco de dados . 
+Essa camada é responsável por salvar os objetos necessários no banco de dados. É essa camada que trata da parte de dados e da persistência desses dados no banco de dados. 
