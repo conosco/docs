@@ -34,3 +34,4 @@
 |#33|[Atualizar dados cadastrais)](https://github.com/conosco/conosco-api/issues/33)| 5 |
 |#37|[Criar Modal)](https://github.com/conosco/conosco-api/issues/54)| 3 |
 |#41|[Padronizar commits)](https://github.com/conosco/conosco-api/issues/41)| 2 |
+|#56|[Eu, como usuário, desejo cadastrar um novo hábito no sistema)](https://github.com/conosco/conosco-api/issues/56)| 5 |

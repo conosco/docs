@@ -35,15 +35,15 @@
 
 | Feature| Identificador | Estória | Pontuação | Status |
 |-| :---: | --- |  :---: | :---: |
-| F01 | <b><i>US01</i></b> | Eu, como usuário, desejo me cadastrar no sistema    | |  |
-| F01 | <b><i>US02</i></b> | Eu, como usuário, desejo fazer login com o facebook |  |  |
-| F01 | <b><i>US03</i></b> | Eu, como usuário, desejo fazer login no sistema | | |
-| F01 | <b><i>US04</i></b> | Eu, como usuário, desejo fazer logoff no sistema |  |  |
+| F01 | <b><i>US01</i></b> | Eu, como usuário, desejo me cadastrar no sistema    | 5 |  |
+| F01 | <b><i>US02</i></b> | Eu, como usuário, desejo fazer login com o facebook | 8 |  |
+| F01 | <b><i>US03</i></b> | Eu, como usuário, desejo fazer login no sistema | 3 | |
+| F01 | <b><i>US04</i></b> | Eu, como usuário, desejo fazer logoff no sistema | 3 |  |
 | F01 | <b><i>US05</i></b> | Eu, como usuário, desejo ver sobre o Conosco |  |  |
-| F01 | <b><i>US06</i></b> | Eu, como usuário, desejo atualizar meus dados cadastrais |  |  |
-| F02 | <b><i>US07</i></b> | Eu, como usuário, desejo cadastrar um novo hábito no sistema | | |
+| F01 | <b><i>US06</i></b> | Eu, como usuário, desejo atualizar meus dados cadastrais | 5 |  |
+| F02 | <b><i>US07</i></b> | Eu, como usuário, desejo cadastrar um novo hábito no sistema | 5 | |
 | F02 | <b><i>US08</i></b> | Eu, como usuário, desejo editar as informações de um hábito que eu criei | | |
-| F02 | <b><i>US09</i></b> | Eu, como usuário, desejo desejo excluir um hábito que eu criei | | |
+| F02 | <b><i>US09</i></b> | Eu, como usuário, desejo desejo excluir um hábito que eu criei | 3 | |
 | F03 | <b><i>US10</i></b> | Eu, como usuário, desejo comentar uma nova dica em algum hábito que eu esteja vinculado  | |  |
 | F04 | <b><i>US11</i></b> | Eu, como usuário, desejo dar *upvote* nas dicas que me forem úteis  |  |  |
 | F05 | <b><i>US12</i></b> | Eu, como usuário, desejo visualizar a minha *barra de progresso* no aplicativo  | | |
@@ -58,24 +58,32 @@
 | F09 | <b><i>US21</i></b> | Eu, como usuário, desejo ser guiado por um tutorial quando necessário | |  ||
 | F09 | <b><i>US22</i></b> | Eu, como usuário, desejo ser desafiado a realizar minhas atividades | |  ||
 | F09 | <b><i>US23</i></b> | Eu, como usuário, desejo acumular XP enquanto finalizar minhas atividades | |  ||
-| F10 | <b><i>US24</i></b> | Eu, como usuário, desejo receber emblemas e certificados de conquista após executar certas tarefas | |  ||
+| F10 | <b><i>US24</i></b> | Eu, como usuário, desejo receber emblemas e certificados de conquista após executar certas tarefas | |  |
 | F10 | <b><i>US25</i></b> | Eu, como usuário, desejo receber medalhas por níveis alcançados | |  ||
 
 ## Estórias Técnicas
 
 | Feature | Identificador | Estória | Pontuação | Status |
 | :-: | :---: | --- |  :---: | :---: |
-| F01 | <b><i>TS01</i></b> | Eu como desenvolvedor desejo criar models de acordo com o estipulado no diagrama de classes  |  |
+| F01 | <b><i>TS01</i></b> | Eu como desenvolvedor desejo criar models de acordo com o estipulado no diagrama de classes  |  | |
 | F01 | <b><i>TS02</i></b> | Eu como desenvolvedor desejo criar models que comportam multiplos modelos |  |  |
 | F02 | <b><i>TS03</i></b> | Eu como desenvolvedor desejo importar dados do facebook  |  |  |
 | F02 | <b><i>TS04</i></b> | Eu como desenvolvedor desejo guardar histórico de atualizações |  | |
-| F03 | <b><i>TS05</i></b> | Eu como desenvolvedor desejo criar uma interface para o dashboard |  |  |
+| F03 | <b><i>TS05</i></b> | Eu como desenvolvedor desejo criar uma interface para o dashboard | 8 | |
 | F03 | <b><i>TS06</i></b> | Eu como desenvolvedor desejo atualizar automaticamente o dashboard de eventos do usuário |  | |
 | F04 | <b><i>TS07</i></b> | Eu como desenvolvedor desejo criar testes automatizados para o dashboard |  |  |
 | F04 | <b><i>TS08</i></b> | Eu como desenvolvedor desejo criar interface para visualização | |  |
 | F05 | <b><i>TS09</i></b> | Eu como desenvolvedor desejo criar interface para visualização |  |  |
 | F05 | <b><i>TS10</i></b> | Eu como desenvolvedor desejo converter o desempenho do usuário em recompensas  |  |  |
-| F06 | <b><i>TS11</i></b> | Eu como desenvolvedor desejo criar <i>easter eggs</i> como forma de recompensas  |  |  | |
+| F06 | <b><i>TS11</i></b> | Eu como desenvolvedor desejo criar <i>easter eggs</i> como forma de recompensas  |  | |
+| F07 | <b><i>TS12</i></b> | Eu como desenvolvedor desejo Modals | 3 | |
+| F00 | <b><i>TS13</i></b> | Eu como desenvolvedor desejo padronizar os commits | 2 | |
+| F00 | <b><i>TS14</i></b> | Eu como desenvolvedor desejo encriptar a senha do login | 8 | |
+| F00 | <b><i>TS15</i></b> | Eu como desenvolvedor desejo padronizar responses | 5 | |
+| F00 | <b><i>TS15</i></b> | Eu como desenvolvedor desejo aplicar validators | 5 | |
+| F00 | <b><i>TS16</i></b> | Eu como desenvolvedor desejo criar mensagens de Erro (Error handling) | 3 | |
+| F00 | <b><i>TS17</i></b> | Eu como desenvolvedor desejo criar entidades e Migrations | 5 | |
+| F00 | <b><i>TS17</i></b> | Eu como desenvolvedor desejo criar entidades e Migrations | 5 | |
 
 
 

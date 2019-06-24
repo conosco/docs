@@ -33,7 +33,7 @@
 |#39|[Padronizar responses](https://github.com/conosco/conosco-api/issues/39)| 5 |
 |#38|[Aplicar validators ](https://github.com/conosco/conosco-api/issues/38)| 5 |
 |#36|[Mensagens de Erro (Error handling)](https://github.com/conosco/conosco-api/issues/36)| 3 |
-|#31|[Eu, como usuário, desejo me cadastrar no sistema via e-mail](https://github.com/conosco/conosco-api/issues/31)| 5 |
+|#31|[Eu, como usuário, desejo me cadastrar no sistema via e-mail (Cadastrar no sistema sem ser pelo Facebook)](https://github.com/conosco/conosco-api/issues/31)| 5 |
 
 ----
 
