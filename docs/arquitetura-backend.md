@@ -1,3 +1,59 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Padrões de projeto: Backend](#padr%C3%B5es-de-projeto-backend)
+  - [Histórico de revisão](#hist%C3%B3rico-de-revis%C3%A3o)
+  - [1. Introdução](#1-introdu%C3%A7%C3%A3o)
+  - [2. Padrões Emergentes](#2-padr%C3%B5es-emergentes)
+    - [2.1 Injeção de Dependência e Inversão de Controle](#21-inje%C3%A7%C3%A3o-de-depend%C3%AAncia-e-invers%C3%A3o-de-controle)
+      - [2.1.1 Descrição](#211-descri%C3%A7%C3%A3o)
+      - [2.1.2 Motivação](#212-motiva%C3%A7%C3%A3o)
+      - [2.1.3 Exemplo](#213-exemplo)
+    - [2.2 Repository](#22-repository)
+      - [2.2.1 Descrição](#221-descri%C3%A7%C3%A3o)
+      - [2.2.2 Motivação](#222-motiva%C3%A7%C3%A3o)
+      - [2.2.3 Exemplo](#223-exemplo)
+    - [2.3 DTO](#23-dto)
+      - [2.3.1 Descrição](#231-descri%C3%A7%C3%A3o)
+      - [2.3.2 Motivação](#232-motiva%C3%A7%C3%A3o)
+      - [2.3.3 Exemplo](#233-exemplo)
+    - [2.4 Pipes and Filters](#24-pipes-and-filters)
+      - [2.4.1 Descrição](#241-descri%C3%A7%C3%A3o)
+      - [2.4.2 Motivação](#242-motiva%C3%A7%C3%A3o)
+      - [2.4.3 Exemplo](#243-exemplo)
+  - [3. Padrões GOF](#3-padr%C3%B5es-gof)
+    - [3.1 Singleton](#31-singleton)
+      - [3.1.1 Descrição](#311-descri%C3%A7%C3%A3o)
+      - [3.1.2 Motivação](#312-motiva%C3%A7%C3%A3o)
+      - [3.1.3 Exemplo](#313-exemplo)
+    - [3.2 Decorator](#32-decorator)
+      - [3.2.1 Descrição](#321-descri%C3%A7%C3%A3o)
+      - [3.2.2 Motivação](#322-motiva%C3%A7%C3%A3o)
+      - [3.2.3 Exemplo](#323-exemplo)
+    - [3.3 Observer](#33-observer)
+      - [3.3.1 Descrição](#331-descri%C3%A7%C3%A3o)
+      - [3.3.2 Motivação](#332-motiva%C3%A7%C3%A3o)
+      - [3.3.3 Exemplo](#333-exemplo)
+    - [3.4 Facade](#34-facade)
+      - [3.4.1 Descrição](#341-descri%C3%A7%C3%A3o)
+      - [3.4.2 Motivação](#342-motiva%C3%A7%C3%A3o)
+      - [3.4.3 Exemplo](#343-exemplo)
+    - [3.5 Strategy](#35-strategy)
+      - [3.5.1 Descrição](#351-descri%C3%A7%C3%A3o)
+      - [3.5.2 Motivação](#352-motiva%C3%A7%C3%A3o)
+      - [3.5.3 Exemplo](#353-exemplo)
+    - [3.6 Factory](#36-factory)
+      - [3.6.1 Descrição](#361-descri%C3%A7%C3%A3o)
+      - [3.6.2 Motivação](#362-motiva%C3%A7%C3%A3o)
+      - [3.6.3 Exemplo](#363-exemplo)
+    - [3.7 Factory](#37-factory)
+      - [3.7.1 Descrição](#371-descri%C3%A7%C3%A3o)
+      - [3.7.2 Motivação](#372-motiva%C3%A7%C3%A3o)
+      - [3.7.3 Exemplo](#373-exemplo)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Padrões de projeto: Backend
 
 ## Histórico de revisão
@@ -65,7 +121,7 @@ Na classe `UserService`, são implementados métodos de negócio (procurar usuá
 
 ![](../assets/img/backend-arquitetura/repository_user_service.png)
 
-#### 2.3 DTO
+### 2.3 DTO
 #### 2.3.1 Descrição
 Um Objeto de Transferência de Dados é um objeto usado para encapsular dados e enviá-los de um subsistema de um aplicativo para outro.
 
@@ -92,7 +148,7 @@ Finalmente, na `TopicService`, o objeto é persistido no banco de dados.
 
 ![](../assets/img/backend-arquitetura/dto_topic_service.png)
 
-#### 2.4 Pipes and Filters
+### 2.4 Pipes and Filters
 #### 2.4.1 Descrição
 
 Ele consiste em qualquer número de componentes (filtros) que transformam ou filtram dados, antes de transmiti-los via conectores (tubos) para outros componentes. Os filtros estão todos funcionando ao mesmo tempo.

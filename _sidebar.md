@@ -23,6 +23,7 @@
   - [Documento de Visão](/docs/documento-visao.md)
   - [Plano de gamificação](/docs/plano-gamificacao.md)
   - [Documento de Arquitetura](/docs/arquitetura.md)
+      - [Padrões utilizados no backend](/docs/arquitetura-backend)
       - [Modelo C4](/docs/modelo-c4.md)
       - [Arquitetura Redux](/docs/arquitetura-redux.md)
   - [Requisitos de Qualidade](/docs/requisitos_qualidade.md)
