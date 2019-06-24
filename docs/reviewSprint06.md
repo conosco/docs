@@ -1,3 +1,8 @@
+| **Data** | **Versão** | **Descrição** | **Autor(es)** |
+|---|---|---|---|
+| 06/06/2019 | 0.1 | Criação | Ana Carolina Carvalho |
+| 24/06/2019 | 0.2 | Histórico de versão | Ana Carolina Carvalho |
+
 # Review da sprint 06
 **Número da Sprint:** 6
 
@@ -67,4 +72,4 @@
 
 ## Análise do Scrum master
 
-Senti que produzimos mais que na sprint passada e conseguimos entregar uma tarefa grande. O entrosamento melhorou consideravelmente. Os membros se encontram mais ativos. Melhoramos alguns documentos também, baseado nas aulas. Estamos nos recuperando em relação a sprint passada. Tiramos algo positivo da falha, nossas dailies foram boas e mais regulares, estamos mais focados e acredito que na próxima sprint será melhor. 
+Senti que produzimos mais que na sprint passada e conseguimos entregar uma tarefa grande. O entrosamento melhorou consideravelmente. Os membros se encontram mais ativos. Melhoramos alguns documentos também, baseado nas aulas. Estamos nos recuperando em relação a sprint passada. Tiramos algo positivo da falha, nossas dailies foram boas e mais regulares, estamos mais focados e acredito que na próxima sprint será melhor.

@@ -1,3 +1,8 @@
+| **Data** | **Versão** | **Descrição** | **Autor(es)** |
+|---|---|---|---|
+| 28/04/2019 | 0.1 | Criação | Augusto Vilarins |
+| 24/06/2019 | 0.2 | Histórico de versão | Ana Carolina Carvalho |
+
 # Planejamento da Sprint 01
 
 **Número da Sprint:** 1

@@ -1,3 +1,9 @@
+| **Data** | **Versão** | **Descrição** | **Autor(es)** |
+|---|---|---|---|
+| 13/05/2019 | 0.1 | Criação | Augusto Vilarins |
+| 24/06/2019 | 0.2 | Atualização | Ana Carolina Carvalho |
+| 24/06/2019 | 0.2 | Histórico de versão | Ana Carolina Carvalho |
+
 # Review da sprint 03
 **Número da Sprint:** 3
 
@@ -68,4 +74,4 @@ Não houveram dividas técnicas nesta sprint.
 
 Senti que poucos membros do grupo participaram ativamente do projeto. As dailies dessa sprint foram esvaziadas e não foram essencialmente produtivas.
 
-Por causa das dinâmicas dessa semana , os esforços do time foram um pouco reduzidos em relação a código e focamos mais nas dinâmicas. 
+Por causa das dinâmicas dessa semana , os esforços do time foram um pouco reduzidos em relação a código e focamos mais nas dinâmicas.

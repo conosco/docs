@@ -4,6 +4,7 @@
 |12/04/2019 | 0.1 | Iniciação do Backlog | Todos |
 |22/04/2019 | 0.2 | Correção e atualização | Ana Carolina Carvalho |
 |22/04/2019 | 0.2 | Correção de features | Ana Carolina Carvalho |
+|24/06/2019 | 0.3 | Correção de features e pontuações | Ana Carolina Carvalho |
 
 
 ## Épicos

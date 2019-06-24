@@ -1,3 +1,8 @@
+| **Data** | **Versão** | **Descrição** | **Autor(es)** |
+|---|---|---|---|
+| 22/06/2019 | 0.1 | Criação | Ana Carolina Carvalho |
+| 24/06/2019 | 0.2 | Atualização | Ana Carolina Carvalho |
+
 # Review da sprint 08
 **Número da Sprint:** 8
 

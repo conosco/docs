@@ -1,3 +1,8 @@
+| **Data** | **Versão** | **Descrição** | **Autor(es)** |
+|---|---|---|---|
+| 29/05/2019 | 0.1 | Criação | Ana Carolina Carvalho |
+| 24/06/2019 | 0.2 | Histórico de versão | Ana Carolina Carvalho |
+
 # Review da sprint 05
 
 **Número da Sprint:** 5

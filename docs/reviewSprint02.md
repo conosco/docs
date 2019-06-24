@@ -1,3 +1,8 @@
+| **Data** | **Versão** | **Descrição** | **Autor(es)** |
+|---|---|---|---|
+| 05/05/2019 | 0.1 | Criação | Augusto Vilarins |
+| 24/06/2019 | 0.2 | Histórico de versão | Ana Carolina Carvalho |
+
 # Review da sprint 02
 **Número da Sprint:** 2
 

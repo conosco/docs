@@ -1,3 +1,9 @@
+| **Data** | **Versão** | **Descrição** | **Autor(es)** |
+|---|---|---|---|
+| 13/05/2019 | 0.1 | Criação | Augusto Vilarins |
+| 24/06/2019 | 0.2 | Atualização | Ana Carolina Carvalho |
+| 24/06/2019 | 0.2 | Histórico de versão | Ana Carolina Carvalho |
+
 # Planejamento da Sprint 03
 
 **Número da Sprint:** 3
