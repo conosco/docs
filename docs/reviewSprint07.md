@@ -11,7 +11,7 @@
 
 **Critério para pontuação:** Planning Poker
 
-**Quantidades de histórias adicionadas:** 1
+**Quantidades de histórias adicionadas:** 2
 
 ----
 
@@ -31,7 +31,7 @@
 |Issue|Nome|Status|
 |-----|----|-----|
 |#43|[Adicionar ferramenta de análise de código aos repositórios](https://github.com/conosco/conosco-api/issues/47)| :heavy_check_mark: |
-|#34|[Cadastrar novo habito no sistema](https://github.com/conosco/conosco-api/issues/34)| :x: |
+|#04|[Eu, como usuário, desejo fazer logoff no sistema](https://github.com/conosco/conosco-api/issues/53)| :heavy_check_mark: |
 |#33|[Atualizar dados cadastrais)](https://github.com/conosco/conosco-api/issues/33)| :x: |
 
 
@@ -41,7 +41,8 @@
 
 |Pontos positivos|Pontos Negativos|Ações para melhoria|
 |------|------------|----------|
-
+|Entrosamento|Atraso|Redividir as tarefas|
+|Pareamento| - | - |
 
 ## Evolução do conhecimento
 
@@ -51,16 +52,18 @@
 
 ![Burndown]()
 
-** Pontos planejados ** : 
+** Pontos planejados ** : 10
 
-** Pontos executados ** : 
+** Pontos executados ** : 5
 
-** Velocity ** : 
+** Velocity ** : 5
 
 ----
 
 ## Dividas técnicas
 
-
+|#33|[Atualizar dados cadastrais)](https://github.com/conosco/conosco-api/issues/33)| :x: |
 
 ## Análise do Scrum master
+
+Senti que apesar de não termos entregue todas as tarefas planejadas, conseguimos produzir e atualizar alguns artefatos de arquitetura. Todos contribuiram de alguma forma. Refatoramos algumas coisas na API. Temos aplicado os padrões. Estamos nos aproximando do final, acredito que entregaremos um bom produto.

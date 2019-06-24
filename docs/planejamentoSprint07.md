@@ -32,5 +32,5 @@
 |Issue|Nome|Status|
 |-----|----|-----|
 |#43|[Adicionar ferramenta de análise de código aos repositórios](https://github.com/conosco/conosco-api/issues/47)| 2 |
-|#34|[Cadastrar novo habito no sistema](https://github.com/conosco/conosco-api/issues/34)| 5 |
+|#04|[Eu, como usuário, desejo fazer logoff no sistema](https://github.com/conosco/conosco-api/issues/53)| 3 |
 |#33|[Atualizar dados cadastrais)](https://github.com/conosco/conosco-api/issues/33)| 5 |
