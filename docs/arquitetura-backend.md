@@ -62,9 +62,10 @@
 |---|---|---|---|
 |23/06/2019 | 0.1 | Adição de Padrões | Ícaro Oliveira, Guilherme Siqueira e Gustavo Braz |
 |23/06/2019 | 0.2 | Adição de DTO, Pipes and Filters | Ícaro Oliveira, Guilherme Siqueira e Gustavo Braz |
+|24/06/2019 | 0.3 |  | Ana Carolina Carvalho |
 
 ## 1. Introdução
-Este documento apresenta os padrões de projeto utilizados no backend. A estrutura dos padrões é segue o seguinte modelo: breve descrição do padrão, motivação e trecho de código como exemplo. 
+Este documento apresenta os padrões de projeto utilizados no backend. A estrutura dos padrões é segue o seguinte modelo: breve descrição do padrão, motivação e trecho de código como exemplo.
 
 É importante ressaltar que a implementação da arquitetura, tanto do projeto quanto do próprio *framework* adotado, foram pensados sob **princípios *SOLID*** no projeto.
 
@@ -73,7 +74,7 @@ Este documento apresenta os padrões de projeto utilizados no backend. A estrutu
 ### 2.1 Injeção de Dependência e Inversão de Controle
 
 #### 2.1.1 Descrição
-Injeção de dependência (Dependency Injection, em inglês) é um padrão de desenvolvimento de programas de computadores utilizado quando é necessário manter baixo o nível de acoplamento entre diferentes módulos de um sistema. 
+Injeção de dependência (Dependency Injection, em inglês) é um padrão de desenvolvimento de programas de computadores utilizado quando é necessário manter baixo o nível de acoplamento entre diferentes módulos de um sistema.
 
 Nesta solução as dependências entre os módulos não são definidas programaticamente, mas sim pela configuração de uma infraestrutura de software (container) que é responsável por "injetar" em cada componente suas dependências declaradas. A Injeção de dependência se relaciona com o padrão Inversão de controle mas não pode ser considerada um sinônimo deste.
 
@@ -102,16 +103,16 @@ Agora, o contêiner (module) do `User` controla o registro da injeção de servi
 
 ![](../assets/img/backend-arquitetura/ioc_user_module.png)
 
-### 2.2 Repository 
+### 2.2 Repository
 #### 2.2.1 Descrição
 
-Essencialmente, esse padrão fornece uma abstração de dados, para que seu aplicativo possa trabalhar com uma abstração simples que tenha uma interface que se aproxima de uma coleção. 
+Essencialmente, esse padrão fornece uma abstração de dados, para que seu aplicativo possa trabalhar com uma abstração simples que tenha uma interface que se aproxima de uma coleção.
 
 Adicionar, remover, atualizar e selecionar itens dessa coleção é feito por meio de uma série de métodos simples, sem a necessidade de lidar com questões de banco de dados, como conexões, comandos, cursores ou leitores. Usar esse padrão pode ajudar a obter um acoplamento flexível e manter a persistência dos objetos de domínio ignorantes.
 
 #### 2.2.2 Motivação
 
-O TypeORM oferece duas formas de utilizar a interação com os dados: Active Record ou Repository. Este foi escolhido pois oferece maior flexibilidade caso haja alguma modificação na forma de lidar com os dados e também respeita um **baixo acoplamento** entre as classes. 
+O TypeORM oferece duas formas de utilizar a interação com os dados: Active Record ou Repository. Este foi escolhido pois oferece maior flexibilidade caso haja alguma modificação na forma de lidar com os dados e também respeita um **baixo acoplamento** entre as classes.
 
 No projeto, havia a possibilidade de implementar um repositório customizado para cada entidade, mas resolveu-se utilizar o repositório provido pelo TypeOrm.
 
@@ -185,7 +186,13 @@ Esses filtros e tubos são instanciados na criação (*bootstrap*) do server, in
 ### 3.1 Singleton
 
 #### 3.1.1 Descrição
+
+No Singleton a ideia é ter uma classe-objeto que tenha no máximo uma única instância durante todo o ciclo de vida da aplicação. Para que assim funcione, criamos um atributo privado de nome instancia que é do tipo Singleton, o qual que irá armazenar a única instância. Por padrão, teremos um método 'obterInstancia()' para ter acesso à instancia. Caso já exista uma instância ativa, o método apenas a retorna, senão a cria.
+
 #### 3.1.2 Motivação
+
+No intuito de evitar instanciar um mesmo classe-objeto diversas vezes, ocupando mais espaço na memória e prejudicando o desempenho.
+
 #### 3.1.3 Exemplo
 
 ### 3.2 Decorator
@@ -206,19 +213,19 @@ Esses filtros e tubos são instanciados na criação (*bootstrap*) do server, in
 #### 3.4.2 Motivação
 #### 3.4.3 Exemplo
 
-### 3.5 Strategy 
+### 3.5 Strategy
 
 #### 3.5.1 Descrição
 #### 3.5.2 Motivação
 #### 3.5.3 Exemplo
 
-### 3.6 Factory 
+### 3.6 Factory
 
 #### 3.6.1 Descrição
 #### 3.6.2 Motivação
 #### 3.6.3 Exemplo
 
-### 3.7 Factory 
+### 3.7 Factory
 
 #### 3.7.1 Descrição
 #### 3.7.2 Motivação
