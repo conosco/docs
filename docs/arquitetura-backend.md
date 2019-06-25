@@ -62,7 +62,7 @@
 |---|---|---|---|
 |23/06/2019 | 0.1 | Adição de Padrões | Ícaro Oliveira, Guilherme Siqueira e Gustavo Braz |
 |23/06/2019 | 0.2 | Adição de DTO, Pipes and Filters | Ícaro Oliveira, Guilherme Siqueira e Gustavo Braz |
-|24/06/2019 | 0.3 |  | Ana Carolina Carvalho |
+|25/06/2019 | 0.3 | Adição do Singleton, Decorator, Observer | Ana Carolina Carvalho |
 
 ## 1. Introdução
 Este documento apresenta os padrões de projeto utilizados no backend. A estrutura dos padrões é segue o seguinte modelo: breve descrição do padrão, motivação e trecho de código como exemplo.
@@ -210,7 +210,15 @@ O principal intuito de se usar o Decorator é que podemos adicionar comportament
 ### 3.3 Observer
 
 #### 3.3.1 Descrição
+
+O padrão Observer é um objeto que permite que outros observem sua mudança de estado. Sendo assim, objetos podem ser registrados como observadores e também podem cancelar essa associação em qualquer momento da aplicação.
+
+Desta forma, os objetos podem ter interação sem que os mesmos fiquem expostos. E, por fim, os objetos que observam são avisados das mudanças de estado ou outro evento do objeto observado.
+
 #### 3.3.2 Motivação
+
+Os objetos podem interagir entre si sem que a sua estrutura interna fique exposta para o objeto que está observando. Podendo desfazer essa interação a qualquer momento.
+
 #### 3.3.3 Exemplo
 
 ### 3.4 Facade
