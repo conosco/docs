@@ -224,7 +224,13 @@ Os objetos podem interagir entre si sem que a sua estrutura interna fique expost
 ### 3.4 Facade
 
 #### 3.4.1 Descrição
+
+O Facade trata de um encapsulamento de um subsistema complexo dentro de uma única interface. Reduzindo a curva de aprendizado. Outro benefício é o desacoplamento do subsistema. Se usado corretamente, haverá flexibilidade e recursos para o desenvolvimento de funções mais avançadas/complexas.
+
 #### 3.4.2 Motivação
+
+Usar uma interface para uma determinada abstrair e simplificar certa funcionalidade de um subsistema complexo. Sem a necessidade de conhecer a estrutura interna.
+
 #### 3.4.3 Exemplo
 
 ### 3.5 Strategy
