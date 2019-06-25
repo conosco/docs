@@ -198,7 +198,13 @@ No intuito de evitar instanciar um mesmo classe-objeto diversas vezes, ocupando 
 ### 3.2 Decorator
 
 #### 3.2.1 Descrição
+
+O Decorator nos permite anexar um comportamento a um objeto que já existe dinamicamente, ou seja, em tempo de execução. Sem alterar a sua estrutura, mantendo a assinatura dos métodos intacta. Sem a necessidade de fazer herança e, com isso, não criar um alto número de sub-classes.
+
 #### 3.2.2 Motivação
+
+O principal intuito de se usar o Decorator é que podemos adicionar comportamentos de modo dinâmico em tempo de execução, em casos que usar a herança teria um custo muito alto por causa das sub-classes.
+
 #### 3.2.3 Exemplo
 
 ### 3.3 Observer
