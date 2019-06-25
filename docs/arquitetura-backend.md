@@ -62,7 +62,7 @@
 |---|---|---|---|
 |23/06/2019 | 0.1 | Adição de Padrões | Ícaro Oliveira, Guilherme Siqueira e Gustavo Braz |
 |23/06/2019 | 0.2 | Adição de DTO, Pipes and Filters | Ícaro Oliveira, Guilherme Siqueira e Gustavo Braz |
-|25/06/2019 | 0.3 | Adição do Singleton, Decorator, Observer | Ana Carolina Carvalho |
+|25/06/2019 | 0.3 | Adição do Singleton, Decorator, Observer e Facade| Ana Carolina Carvalho |
 
 ## 1. Introdução
 Este documento apresenta os padrões de projeto utilizados no backend. A estrutura dos padrões é segue o seguinte modelo: breve descrição do padrão, motivação e trecho de código como exemplo.
