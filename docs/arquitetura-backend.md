@@ -288,9 +288,8 @@ Este padrão é proposto pelo *framework* para a criação da instância da apli
 Importam-se os módulos no `AppModule`:
 ![Imgur](https://i.imgur.com/FhivYqh.png)
 
-É utilizada a fábrica para criar o objeto `app` e este poder controlar outras funcionalidades do servidor, como configurar os [pipes and filters](#24-Pipes-and-Filters)
+É utilizada a fábrica para criar o objeto `app` e este poder controlar outras funcionalidades do servidor, como configurar os [pipes and filters](#24-Pipes-and-Filters).
 
 ![Imgur](https://i.imgur.com/Nm0WT4O.png)
 
-
-https://github.com/nestjs/nest/blob/5b552209a5a587ae7b58d0d7c50d022c2ed0055c/packages/core/nest-factory.ts#L32
+Na documentação do framework, é possível visualizar os detalhes da implementação concreta da Factory: [aqui](https://github.com/nestjs/nest/blob/5b552209a5a587ae7b58d0d7c50d022c2ed0055c/packages/core/nest-factory.ts#L32).
