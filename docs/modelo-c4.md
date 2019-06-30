@@ -3,13 +3,15 @@
 | **Data** | **Versão** | **Descrição** | **Autor(es)** |
 |---|---|---|---|
 |29/03/2019 | 1.0 | Adição da Introdução e desenvolvimento | Ícaro Oliveira |
+|29/06/2019 | 1.1 | Pequena melhoria do arquivo | Ícaro Oliveira |
 
 
 ## Sumário
-- [Modelo C4](#modelo-c4)
-  - [Sumário](#sum%C3%A1rio)
-  - [1. Introdução](#1-introdu%C3%A7%C3%A3o)
-  - [2. Uma nova esperança](#2-uma-nova-esperan%C3%A7a)
+- [Modelo C4](#Modelo-C4)
+  - [Sumário](#Sum%C3%A1rio)
+  - [1. Introdução](#1-Introdu%C3%A7%C3%A3o)
+  - [2. Uma nova esperança](#2-Uma-nova-esperan%C3%A7a)
+  - [C4 no Conosco](#C4-no-Conosco)
 
 ## 1. Introdução
 
@@ -31,3 +33,11 @@ Ele foi inspirado na Unified Modeling Language e no modelo 4+1 para arquitetura 
 Em uma de suas palestras, o autor exemplifica o C4 uma maneira de criar mapas do seu código, em vários níveis de detalhes, da mesma forma que você usa algo como o Google Maps para ampliar ou reduzir uma área em que está interessado.
 
 ![](https://i.imgur.com/bUs4apf.png)
+
+Essa idea de níveis de abstrações se mantêm em projetos de software. São eles: contexto, contêiners, componenetes e código.
+
+## C4 no Conosco
+
+No nosso projeto, conseguimos atingir os quatro níveis de abstração. O ultimo sendo apoiado por diagramas de entidade-relacionamento, diagramas lógicos, de sequência etc. 
+
+A nível de código, foram geradas documentações a partir do Swagger e Doctoc, para a API.
