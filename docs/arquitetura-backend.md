@@ -2,55 +2,47 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [Padrões de projeto: Backend](#padr%C3%B5es-de-projeto-backend)
-  - [Histórico de revisão](#hist%C3%B3rico-de-revis%C3%A3o)
-  - [1. Introdução](#1-introdu%C3%A7%C3%A3o)
-  - [2. Padrões Emergentes](#2-padr%C3%B5es-emergentes)
-    - [2.1 Injeção de Dependência e Inversão de Controle](#21-inje%C3%A7%C3%A3o-de-depend%C3%AAncia-e-invers%C3%A3o-de-controle)
-      - [2.1.1 Descrição](#211-descri%C3%A7%C3%A3o)
-      - [2.1.2 Motivação](#212-motiva%C3%A7%C3%A3o)
-      - [2.1.3 Exemplo](#213-exemplo)
-    - [2.2 Repository](#22-repository)
-      - [2.2.1 Descrição](#221-descri%C3%A7%C3%A3o)
-      - [2.2.2 Motivação](#222-motiva%C3%A7%C3%A3o)
-      - [2.2.3 Exemplo](#223-exemplo)
-    - [2.3 DTO](#23-dto)
-      - [2.3.1 Descrição](#231-descri%C3%A7%C3%A3o)
-      - [2.3.2 Motivação](#232-motiva%C3%A7%C3%A3o)
-      - [2.3.3 Exemplo](#233-exemplo)
-    - [2.4 Pipes and Filters](#24-pipes-and-filters)
-      - [2.4.1 Descrição](#241-descri%C3%A7%C3%A3o)
-      - [2.4.2 Motivação](#242-motiva%C3%A7%C3%A3o)
-      - [2.4.3 Exemplo](#243-exemplo)
-  - [3. Padrões GOF](#3-padr%C3%B5es-gof)
-    - [3.1 Singleton](#31-singleton)
-      - [3.1.1 Descrição](#311-descri%C3%A7%C3%A3o)
-      - [3.1.2 Motivação](#312-motiva%C3%A7%C3%A3o)
-      - [3.1.3 Exemplo](#313-exemplo)
-    - [3.2 Decorator](#32-decorator)
-      - [3.2.1 Descrição](#321-descri%C3%A7%C3%A3o)
-      - [3.2.2 Motivação](#322-motiva%C3%A7%C3%A3o)
-      - [3.2.3 Exemplo](#323-exemplo)
-    - [3.3 Observer](#33-observer)
-      - [3.3.1 Descrição](#331-descri%C3%A7%C3%A3o)
-      - [3.3.2 Motivação](#332-motiva%C3%A7%C3%A3o)
-      - [3.3.3 Exemplo](#333-exemplo)
-    - [3.4 Facade](#34-facade)
-      - [3.4.1 Descrição](#341-descri%C3%A7%C3%A3o)
-      - [3.4.2 Motivação](#342-motiva%C3%A7%C3%A3o)
-      - [3.4.3 Exemplo](#343-exemplo)
-    - [3.5 Strategy](#35-strategy)
-      - [3.5.1 Descrição](#351-descri%C3%A7%C3%A3o)
-      - [3.5.2 Motivação](#352-motiva%C3%A7%C3%A3o)
-      - [3.5.3 Exemplo](#353-exemplo)
-    - [3.6 Factory](#36-factory)
-      - [3.6.1 Descrição](#361-descri%C3%A7%C3%A3o)
-      - [3.6.2 Motivação](#362-motiva%C3%A7%C3%A3o)
-      - [3.6.3 Exemplo](#363-exemplo)
-    - [3.7 Factory](#37-factory)
-      - [3.7.1 Descrição](#371-descri%C3%A7%C3%A3o)
-      - [3.7.2 Motivação](#372-motiva%C3%A7%C3%A3o)
-      - [3.7.3 Exemplo](#373-exemplo)
+- [Padrões de projeto: Backend](#Padr%C3%B5es-de-projeto-Backend)
+  - [Histórico de revisão](#Hist%C3%B3rico-de-revis%C3%A3o)
+  - [1. Introdução](#1-Introdu%C3%A7%C3%A3o)
+  - [2. Padrões Emergentes](#2-Padr%C3%B5es-Emergentes)
+    - [2.1 Injeção de Dependência e Inversão de Controle](#21-Inje%C3%A7%C3%A3o-de-Depend%C3%AAncia-e-Invers%C3%A3o-de-Controle)
+      - [2.1.1 Descrição](#211-Descri%C3%A7%C3%A3o)
+      - [2.1.2 Motivação](#212-Motiva%C3%A7%C3%A3o)
+      - [2.1.3 Exemplo](#213-Exemplo)
+    - [2.2 Repository](#22-Repository)
+      - [2.2.1 Descrição](#221-Descri%C3%A7%C3%A3o)
+      - [2.2.2 Motivação](#222-Motiva%C3%A7%C3%A3o)
+      - [2.2.3 Exemplo](#223-Exemplo)
+    - [2.3 DTO](#23-DTO)
+      - [2.3.1 Descrição](#231-Descri%C3%A7%C3%A3o)
+      - [2.3.2 Motivação](#232-Motiva%C3%A7%C3%A3o)
+      - [2.3.3 Exemplo](#233-Exemplo)
+    - [2.4 Pipes and Filters](#24-Pipes-and-Filters)
+      - [2.4.1 Descrição](#241-Descri%C3%A7%C3%A3o)
+      - [2.4.2 Motivação](#242-Motiva%C3%A7%C3%A3o)
+      - [2.4.3 Exemplo](#243-Exemplo)
+  - [3. Padrões GOF](#3-Padr%C3%B5es-GOF)
+    - [3.1 Singleton](#31-Singleton)
+      - [3.1.1 Descrição](#311-Descri%C3%A7%C3%A3o)
+      - [3.1.2 Motivação](#312-Motiva%C3%A7%C3%A3o)
+      - [3.1.3 Exemplo](#313-Exemplo)
+    - [3.2 Decorator](#32-Decorator)
+      - [3.2.1 Descrição](#321-Descri%C3%A7%C3%A3o)
+      - [3.2.2 Motivação](#322-Motiva%C3%A7%C3%A3o)
+      - [3.2.3 Exemplo](#323-Exemplo)
+    - [3.3 Facade](#33-Facade)
+      - [3.3.1 Descrição](#331-Descri%C3%A7%C3%A3o)
+      - [3.3.2 Motivação](#332-Motiva%C3%A7%C3%A3o)
+      - [3.3.3 Exemplo](#333-Exemplo)
+    - [3.4 Strategy](#34-Strategy)
+      - [3.4.1 Descrição](#341-Descri%C3%A7%C3%A3o)
+      - [3.4.2 Motivação](#342-Motiva%C3%A7%C3%A3o)
+      - [3.4.3 Exemplo](#343-Exemplo)
+    - [3.5 Factory](#35-Factory)
+      - [3.5.1 Descrição](#351-Descri%C3%A7%C3%A3o)
+      - [3.5.2 Motivação](#352-Motiva%C3%A7%C3%A3o)
+      - [3.5.3 Exemplo](#353-Exemplo)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -60,9 +52,10 @@
 
 | **Data** | **Versão** | **Descrição** | **Autor(es)** |
 |---|---|---|---|
-|23/06/2019 | 0.1 | Adição de Padrões | Ícaro Oliveira, Guilherme Siqueira e Gustavo Braz |
-|23/06/2019 | 0.2 | Adição de DTO, Pipes and Filters | Ícaro Oliveira, Guilherme Siqueira e Gustavo Braz |
-|25/06/2019 | 0.3 | Adição do Singleton, Decorator, Observer e Facade| Ana Carolina Carvalho |
+|23/06/2019 | 0.1 | Adição do Padrões utilizados e esqueleto do documento | Ícaro Oliveira, Guilherme Siqueira e Gustavo Braz |
+|23/06/2019 | 0.2 | Adição de descrição, motivação e exemplo de DI/IoC, Repository, DTO e Pipes and Filters | Ícaro Oliveira, Guilherme Siqueira e Gustavo Braz |
+|25/06/2019 | 0.3 | Adição da descrição dos padrões Singleton, Decorator e Facade| Ana Carolina Carvalho |
+|29/06/2019 | 1.0 | Adição de descrição, motivação e exemplo dos padrões Singleton, Decorator, Facade, Strategy e Factory| Ícaro Oliveira |
 
 ## 1. Introdução
 Este documento apresenta os padrões de projeto utilizados no backend. A estrutura dos padrões é segue o seguinte modelo: breve descrição do padrão, motivação e trecho de código como exemplo.
@@ -187,13 +180,29 @@ Esses filtros e tubos são instanciados na criação (*bootstrap*) do server, in
 
 #### 3.1.1 Descrição
 
-No Singleton a ideia é ter uma classe-objeto que tenha no máximo uma única instância durante todo o ciclo de vida da aplicação. Para que assim funcione, criamos um atributo privado de nome instancia que é do tipo Singleton, o qual que irá armazenar a única instância. Por padrão, teremos um método 'obterInstancia()' para ter acesso à instancia. Caso já exista uma instância ativa, o método apenas a retorna, senão a cria.
+No Singleton a ideia é ter uma classe-objeto que tenha no máximo uma única instância durante todo o ciclo de vida da aplicação. 
 
 #### 3.1.2 Motivação
 
-No intuito de evitar instanciar um mesmo classe-objeto diversas vezes, ocupando mais espaço na memória e prejudicando o desempenho.
+No Nest, os [módulos](https://docs.nestjs.com/modules) são singletons por padrão e, portanto, é possível compartilhar a mesma instância de qualquer provedor entre vários módulos sem esforço. Cada módulo é automaticamente um módulo compartilhado. Uma vez criado pode ser reutilizado por qualquer módulo.
+
+![img](https://i.imgur.com/kpjEfFl.png)
 
 #### 3.1.3 Exemplo
+
+No exemplo abaixom, ao criar um grupo (linha 12) é necessário utilizar a classe `HabitService`. Para isso, é utilizada a instância do serviço no construtor do `GroupService` (perceba que não é utilizado `new` ao atribuir ao objeto `habitService`).
+
+![Imgur](https://i.imgur.com/gIoxfOX.png)
+
+Essa classe foi exportada no módulo `HabitModule` (que é decorada como `@Module()`). 
+
+![Imgur](https://i.imgur.com/a4ZYMDs.png)
+
+E assim pôde ser injetada na classe de serviço `GroupService`, pois foi importada na `GroupModule`. É interessante destacar que os próprios módulos também foram encarregados de exportar seus serviços, indicar suas controllers (que serão consumidas no `AppModule` para serem expostas como endpoints RESTful) e importar outros módulos.
+
+É também importado, inclusive, o próprio módulo do ORM, que se encarrega de instanciar a Entidade (model) que foi utilizada no `GroupService` para ser injetada como Repositório. 
+
+![Imgur](https://i.imgur.com/XDri3qn.png)
 
 ### 3.2 Decorator
 
@@ -203,50 +212,85 @@ O Decorator nos permite anexar um comportamento a um objeto que já existe dinam
 
 #### 3.2.2 Motivação
 
-O principal intuito de se usar o Decorator é que podemos adicionar comportamentos de modo dinâmico em tempo de execução, em casos que usar a herança teria um custo muito alto por causa das sub-classes.
+O Nest faz um vasto uso de decoradores, pois é uma facilidade fornecida pelo próprio TypeScript. No TypeScript, podem ser decoradas classes, objetos ou métodos. São utilizados decoradores para extender as funcionalidades de uma classe anotada como `@Controller` e até mesmo para validação. 
+
+Os decoradores são úteis para qualquer coisa que se queira envolver uma funcionalidade extra.
 
 #### 3.2.3 Exemplo
 
-### 3.3 Observer
+Na classe `GroupController`, por exemplo, os decoradores são utilizados para vários fins: dar funcionalidades de documentação (para o módulo do Swagger) e dar os poderes de uma classe `@Controller`. 
+
+![Imgur](https://i.imgur.com/tbXPUQY.png)
+
+Ao investigar o código do framework, verifica-se que ele utiliza esse decorador para implementar um decorador do tipo `ClassDecorator`.
+
+![Imgur](https://i.imgur.com/hlimv3C.png)
+
+### 3.3 Facade
 
 #### 3.3.1 Descrição
 
-O padrão Observer é um objeto que permite que outros observem sua mudança de estado. Sendo assim, objetos podem ser registrados como observadores e também podem cancelar essa associação em qualquer momento da aplicação.
-
-Desta forma, os objetos podem ter interação sem que os mesmos fiquem expostos. E, por fim, os objetos que observam são avisados das mudanças de estado ou outro evento do objeto observado.
+O Facade trata de um encapsulamento de um subsistema complexo dentro de uma única interface. Reduzindo a curva de aprendizado. Outro benefício é o desacoplamento do subsistema. Se usado corretamente, haverá flexibilidade e recursos para o desenvolvimento de funções mais avançadas/complexas.
 
 #### 3.3.2 Motivação
 
-Os objetos podem interagir entre si sem que a sua estrutura interna fique exposta para o objeto que está observando. Podendo desfazer essa interação a qualquer momento.
+Foi utilizado o padrão para abstrair e simplificar a comunicação entre certas camadas do sistema. Especialmente entre a Controller e a Service e entre as próprias services. 
+
+A controller serve apenas para receber as requisições e delegar para as services. Não é implementada nenhuma lógica de negócio nelas.
+
+As respostas são transmitidas para a pipeline de respostas, onde o dado é transformado, empacotado e enviado para o cliente. 
 
 #### 3.3.3 Exemplo
 
-### 3.4 Facade
+Na classe `GroupController`, por exemplo, ela apenas delega à `GroupService` o que deve ser feito. Caso alguma implementação aconteça na lógica de negócio, a forma em que o cliente envia ou recebe os dados não necessariamente poderá ser afetada. 
+
+![Imgur](https://i.imgur.com/x0BWduu.png)
+
+Outro exemplo é na comunicação entre as classes  `AuthService` e `UserService`. A classe encarregada de cuidar da autenticação do usuário não deve ser responsável também pela forma em que o usuário é armazenado ou manipulado (linha 4). Ela deve cuidar apenas de permitir ou não que ele seja autenticado no sistema. 
+
+![Imgur](https://i.imgur.com/EihnFF3.png)
+
+### 3.4 Strategy
 
 #### 3.4.1 Descrição
 
-O Facade trata de um encapsulamento de um subsistema complexo dentro de uma única interface. Reduzindo a curva de aprendizado. Outro benefício é o desacoplamento do subsistema. Se usado corretamente, haverá flexibilidade e recursos para o desenvolvimento de funções mais avançadas/complexas.
+Em vez de implementar um único algoritmo diretamente, o código recebe instruções em tempo de execução sobre qual família de algoritmos usar.
+
+A strategy permite que o algoritmo varie independentemente dos clientes que o usam.
 
 #### 3.4.2 Motivação
 
-Usar uma interface para uma determinada abstrair e simplificar certa funcionalidade de um subsistema complexo. Sem a necessidade de conhecer a estrutura interna.
+Ela foi utilizada para implementar algorítmos de autenticação.
+
+Embora seja utilizado apenas uma estratégia, o modo como foi criado permite que sejam utilizados outros tipos de autenticação (como por Facebook ou Google, por exemplo).
 
 #### 3.4.3 Exemplo
+Na implementação da estratégia do JWT, ele extende a estratégia base do módulo Passport.
 
-### 3.5 Strategy
+![Imgur](https://i.imgur.com/750L4RT.png)
 
+Agora, em módulos que indicam que quiserem registrar essa estratégia, é importado o módulo do Passport e indica-se a estratégia desejada (jwt, no caso.
+
+![Imgur](https://i.imgur.com/vL6r0jN.png)
+
+### 3.5 Factory
 #### 3.5.1 Descrição
+
+A utilização do padrão Factory é útil quando você precisa criar objetos dinamicamente sem conhecer a classe de implementação, somente sua interface: o padrão factory estabelece uma forma de desenvolver objetos que são responsáveis pela criação de outros objetos. 
+
 #### 3.5.2 Motivação
+
+Este padrão é proposto pelo *framework* para a criação da instância da aplicação. A sua interface recebe como parâmetro o módulo-raiz na arquitetura, que é o `AppModule`, e a partir daí ela se encarrega de criar o que for necessário para instanciar o aplicativo.
+
+
 #### 3.5.3 Exemplo
 
-### 3.6 Factory
+Importam-se os módulos no `AppModule`:
+![Imgur](https://i.imgur.com/FhivYqh.png)
 
-#### 3.6.1 Descrição
-#### 3.6.2 Motivação
-#### 3.6.3 Exemplo
+É utilizada a fábrica para criar o objeto `app` e este poder controlar outras funcionalidades do servidor, como configurar os [pipes and filters](#24-Pipes-and-Filters)
 
-### 3.7 Factory
+![Imgur](https://i.imgur.com/Nm0WT4O.png)
 
-#### 3.7.1 Descrição
-#### 3.7.2 Motivação
-#### 3.7.3 Exemplo
+
+https://github.com/nestjs/nest/blob/5b552209a5a587ae7b58d0d7c50d022c2ed0055c/packages/core/nest-factory.ts#L32
