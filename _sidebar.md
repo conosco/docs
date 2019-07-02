@@ -24,20 +24,17 @@
   - [Plano de gamificação](/docs/plano-gamificacao.md)
   - [Documento de Arquitetura](/docs/arquitetura.md)
       - [Padrões utilizados no backend](/docs/arquitetura-backend)
+      - [Padrões utilizados no frontend](/docs/arquitetura-react.md)
       - [Modelo C4](/docs/modelo-c4.md)
-      - [Arquitetura Redux](/docs/arquitetura-redux.md)
   - [Requisitos de Qualidade](/docs/requisitos_qualidade.md)
   - [Backlog do produto](/docs/backlog.md)
       - [Priorização](/docs/priorizacao.md)
   - [Protótipo](/docs/prototipo.md)
   - [Manual de Identidade Visual](/docs/identidade-visual.md)
   - [Quadro de Conhecimento](/docs/quadro-conhecimento.md)
-
 - [Padrões](#)
-  - [GoFs Criacionais](#)
-    - [Factory](/docs/factory.md)
-  - [GoFs Comportamentais](#)
-    - [Command](/docs/command.md)
+
+
 
 - [Release](#)
   - [Sprint01](#)
