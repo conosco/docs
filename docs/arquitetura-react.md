@@ -7,6 +7,7 @@
 | 26/05/2019 | 0.3        | Adição da introdução e Command Pattern no React Native | Guilherme Siqueira, Gustavo Braz, Djorkaeff Alexandre, Ícaro de Oliveira, Augusto Vilarins e Ana Carolina |
 | 26/05/2019 | 0.4        | Adição do diagrama de sequência | Gustavo Braz, Guilherme Siqueira |
 | 01/07/2019 | 0.5        | Unificação dos documentos | Guilherme Siqueira |
+| 01/07/2019 | 0.6        | Adição do padrão Higher-Order Components | Guilherme Siqueira e Djorkaeff Alexandre |
 
 ## Redux
 
@@ -42,7 +43,7 @@
 
 ![Diagrama do redux](../assets/img/arq/Diagrama-pacotes-redux.png)
 
-
+# GoFs Comportamentais 
 ## Command no Redux
 ### Introdução
 A motivação deste padrão é reutilizar alguns pedaços de código já utilizados anteriormente, desacoplando o código, cujo é a sua principal função. Existem três papéis no Command Pattern, o *Receiver*, *Command* e o *Executor*.
@@ -146,6 +147,100 @@ export const logIn = (navigation) => (dispatch) => {
 ### Diagrama de Sequência
 
 ![diagrama-sequencia](../assets/img/Command/Command-diagramaDeSequencia.png)
+
+# Padrões Emergentes
+## Higher-Order Components
+Um Higher-Order Components (HOC) é uma técnica avançada no React para reutilizar a lógica do componente. Os HOCs não fazem parte da React API, por si só. Eles são um **Padrão Emergente** da natureza composicional de React.
+
+O HOC é uma função que recebe um componente e retorna outro componente:
+```javascript
+const EnhancedComponent = higherOrderComponent(WrappedComponent);
+```
+Ou seja: o HOC é bem parecido com o **decorator**, diferenciando que quando um decorator é adicionado, a propriedade/classe só pode ser usada em sua forma decorada, enquanto no padrão HOC tanto uma ordem superior tanto os componentes de ordem inferior são deixadas para uso.
+
+### Higher-Order Components no Conosco
+No aplicativo em React Native do Conosco temos diferentes telas. Originalmente no projeto não havia o uso do Redux, mas com o passar do desenvolvimento foi necessário utilizá-lo. No entanto, para ter acesso ao **store** global do Redux (Redux Store) é necessário modificar os componentes originais de forma a conectá-los ao ecossistema Redux, assim sendo possível acessar os dados do Store global. Para conectar estes componentes utiliza-se a a função ***connect***, que quando chamada ela espera uma função que retorne um componente React.
+
+A ***connect*** é usada para criar elementos contêineres que estão conectados ao Redux Store. O repositório Redux a ser conectado é derivado do ancestral mais alto do componente usando o mecanismo de contexto React. Abaixo há uma ilustração de como o Redux Store se torna acessível aos componentes do Conosco através da HOC ***connect***.
+
+![HOC](../assets/connect.png)
+
+Em que Dashfeed, Dashboard e Home são um dos componentes React que foram necessários conectar ao Redux Store, sendo então necessário utilizar a HOC ***connect*** (Observação: não foram apenas estes três componentes que utilizaram ***connect*** para conectar ao Redux Store, mas optou-se por só ilustrar três exemplos na imagem, para não poluir o desenho). Para ilustrar como é a utilização da *connect* no React Native, optou-se por utilizar o componente ***Dashboard***:
+
+```javascript
+class Dashboard extends React.Component {
+	componentDidMount() {
+    const { dispatch, user } = this.props;
+		dispatch(loadGroups(user.token));
+  }
+
+  render() {
+    const { user, navigation, dispatch, groups } = this.props;
+    const data = [];
+    for (var key in groups) {
+			if(!isNaN(key)) {
+				groups[key].key = key;
+      	data.push(groups[key]);
+			}
+    }
+    
+    return (
+      <View style={{ flex: 1 }}>
+        <ScrollView style={{ flex: 1, height, backgroundColor: '#AAD8DD' }}>
+          <View style={[styles.container]}>
+            <AppModals navigation={navigation} />
+            <Card style={styles.profileCard}>
+              <CardItem>
+                <Body>
+                  <Avatar
+                    size={90}
+                    style={{ color: '#4D9BA3' }}
+                    uploaded
+                    uri={user.profilePic}
+                    progress={100}
+                    callback={() => { }}
+                  />
+                </Body>
+                <Text style={{ alignSelf: 'flex-start', position: 'absolute', left: 110, top: 10, fontWeight: 'bold', fontSize: 18 }}>{user.name}</Text>
+                <View style={{ height: 66, justifyContent: "space-between" }}>
+                  <ProgressBar width={150} color={"#98E1DF"} backgroundColor={"#EADEE0"} progress={50} title="Descrição"></ProgressBar>
+                  <ProgressBar width={150} color={"#478FC8"} backgroundColor={"#EADEE0"} progress={80} title="Determinação"></ProgressBar>
+                </View>
+              </CardItem>
+            </Card>
+            <DashFeed data={data} />
+          </View>
+        </ScrollView>
+        <View style={{ position: 'absolute', right: 0, bottom: 0 }}>
+          <FloatingAction
+            actions={actions}
+            color='#50946F'
+            onPressItem={name => {
+              if (name === 'bt_logout') { this.logout() }
+              if (name === 'bt_my_habits') { dispatch(openModal('Groups', { title: 'Meus Hábitos \n' })); }
+              if (name === 'bt_groups') { dispatch(openModal('Groups', { title: 'Grupos' })); }
+              if (name === 'bt_manage_habits') { this.props.navigation.navigate('NewHabit') }
+              if (name === 'bt_new_group') { this.props.navigation.navigate('NewGroup') }
+            }}
+          />
+        </View>
+      </View>
+    );
+  }
+}
+
+const mapStateToProps = ({ user, groups }) => ({
+  user,
+  groups
+});
+
+export default connect(mapStateToProps)(Dashboard);
+```
+
+Neste componente houve a necessidade de conexão com o React Store para realizar o *fetch* dos dados do usuário e dos grupos que estão sendo retornados pela API do Conosco. Para isto, utiliza-se o ***mapStateToProps*** em conjunto com a ***connect***, fazendo, assim a ligação do componente com o Redux Store, podendo realizar o ***Dispatch*** em ***actions*** do Redux, por exemplo.
+Isto foi algo recorrente na aplicação e utilizado em quase todos os componentes.
+
+# GoFs Criacionais 
 
 ## Factory
 
@@ -335,4 +430,5 @@ O Factory Method deixou o nosso compomente ainda mais "puro", extraindo mais ló
 * [Redux and The Command Pattern](https://medium.com/@abhiaiyer/the-command-pattern-c51292e22ea7). Abhi Aiyer. 2016.
 * [The Factory Pattern in React](https://jobs.zalando.com/tech/blog/the-factory-pattern-in-react/?gh_src=4n3gxh1). Andra Joy Lally. 2016.
 * [React Element Factories and JSX Warning](https://reactjs.org/warnings/legacy-factories.html)
+* [Higher-Order Components](https://reactjs.org/docs/higher-order-components.html)
 
